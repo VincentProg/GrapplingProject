@@ -14055,6 +14055,7 @@ Purging the undo buffer...
 [2021.03.22-11.08.05:170][ 10]LogContentValidation: Display: Validating ObjectRedirector /Game/VBluePrints/BP_VEndLvl.BP_VEndLvl
 [2021.03.22-11.08.05:170][ 10]LogContentValidation: Display: Validating ObjectRedirector /Game/VBluePrints/BP_VEndLvl.Default__BP_VEndLvl_C
 [2021.03.22-11.08.05:170][ 10]LogContentValidation: Display: Validating ObjectRedirector /Game/VBluePrints/BP_VEndLvl.BP_VEndLvl_C
+<<<<<<< HEAD
 [2021.03.22-11.10.36:325][238]LogSlate: Window 'Message' being destroyed
 [2021.03.22-11.10.36:331][238]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
 /Game/VMaterials/Trap.Trap
@@ -14554,3 +14555,5 @@ Purging the undo buffer...
 [2021.03.22-11.10.44:331][239]LogD3D11RHI: CleanupD3DDevice
 [2021.03.22-11.10.44:349][239]LogExit: Exiting.
 [2021.03.22-11.10.44:403][239]Log file closed, 03/22/21 12:10:44
+=======
+>>>>>>> Vincent
