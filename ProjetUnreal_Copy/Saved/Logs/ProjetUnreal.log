@@ -4902,3 +4902,624 @@ Script call stack:
 [2021.03.23-15.49.43:001][790]AssetCheck: New page: Asset Save: Options
 [2021.03.23-15.49.43:001][790]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
 [2021.03.23-15.49.47:963][ 83]LogSlate: Window 'Project Settings' being destroyed
+[2021.03.23-16.06.10:506][996]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.06.10:532][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-16.06.10:532][996]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:06:10)
+[2021.03.23-16.06.10:532][996]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.06.10:534][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001147s)
+[2021.03.23-16.06.10:534][996]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.06.10:534][996]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018CDBA40E00), frame # 411996
+[2021.03.23-16.06.10:534][996]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C91EBDBC0), frame # 411996
+[2021.03.23-16.06.10:535][996]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2021.03.23-16.06.10:535][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.002304s)
+[2021.03.23-16.06.10:581][996]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2021.03.23-16.06.10:582][996]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.06.10:582][996]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.06.10:582][996]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.06.10:582][996]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.06.10:582][996]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.06.10:582][996]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.06.10:582][996]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.06.10:582][996]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.06.10:583][996]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.06.10:583][996]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.06.10:592][996]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.06.10:592][996]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.06.10:636][996]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.06.10:636][996]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.06.10:636][996]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.06.10:636][996]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.06.10:637][996]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.06.10:656][996]LogInit: FAudioDevice initialized.
+[2021.03.23-16.06.10:690][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.06.10:690][996]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.06.10:691][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.06.10
+[2021.03.23-16.06.10:692][996]LogWorld: Bringing up level for play took: 0.000632
+[2021.03.23-16.06.10:692][996]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.03.23-16.06.10:693][996]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.23-16.06.10:695][996]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.06.10:696][996]PIE: Server logged in
+[2021.03.23-16.06.10:697][996]PIE: Play in editor total start time 0,167 seconds.
+[2021.03.23-16.06.24:820][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.06.24:820][839]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.06.24:821][839]LogSlate: Window 'ProjetUnreal Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.23-16.06.24:826][839]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.06.24:826][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.06.24:833][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.06.24:838][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.06.24:895][839]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018C91EBDBC0), frame # 412839
+[2021.03.23-16.06.24:895][839]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018CDBA40E00), frame # 412839
+[2021.03.23-16.06.24:899][839]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.03.23-16.06.24:940][840]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.03.23-16.07.55:218][939]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.07.55:244][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-16.07.55:244][939]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:07:55)
+[2021.03.23-16.07.55:244][939]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.07.55:245][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000971s)
+[2021.03.23-16.07.55:246][939]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.07.55:246][939]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018C94331E00), frame # 417939
+[2021.03.23-16.07.55:246][939]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C94EF6C00), frame # 417939
+[2021.03.23-16.07.55:246][939]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2021.03.23-16.07.55:246][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.002045s)
+[2021.03.23-16.07.55:289][939]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.07.55:291][939]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.07.55:291][939]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.07.55:291][939]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.07.55:300][939]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.07.55:300][939]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.07.55:346][939]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.07.55:346][939]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.07.55:346][939]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.07.55:346][939]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.07.55:347][939]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.07.55:368][939]LogInit: FAudioDevice initialized.
+[2021.03.23-16.07.55:391][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.07.55:391][939]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.07.55:392][939]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.07.55
+[2021.03.23-16.07.55:392][939]LogWorld: Bringing up level for play took: 0.000437
+[2021.03.23-16.07.55:392][939]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2021.03.23-16.07.55:394][939]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.23-16.07.55:395][939]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.07.55:397][939]PIE: Server logged in
+[2021.03.23-16.07.55:399][939]PIE: Play in editor total start time 0,155 seconds.
+[2021.03.23-16.08.37:026][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.08.37:027][227]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.08.37:028][227]LogSlate: Window 'ProjetUnreal Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.23-16.08.37:032][227]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.08.37:032][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.08.37:037][227]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.08.37:043][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.08.37:101][227]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018C94EF6C00), frame # 420227
+[2021.03.23-16.08.37:101][227]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018C94331E00), frame # 420227
+[2021.03.23-16.08.37:105][227]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.03.23-16.08.37:150][228]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2021.03.23-16.09.35:711][719]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.09.35:736][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-16.09.35:736][719]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:09:35)
+[2021.03.23-16.09.35:736][719]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.09.35:737][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000907s)
+[2021.03.23-16.09.35:738][719]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.09.35:738][719]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018C7AE60E00), frame # 423719
+[2021.03.23-16.09.35:738][719]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018CA8E95A80), frame # 423719
+[2021.03.23-16.09.35:738][719]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2021.03.23-16.09.35:738][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.002016s)
+[2021.03.23-16.09.35:782][719]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2021.03.23-16.09.35:783][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.09.35:783][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.09.35:783][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.09.35:783][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.09.35:783][719]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.09.35:783][719]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.09.35:783][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.09.35:783][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.09.35:784][719]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.09.35:784][719]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.09.35:792][719]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.09.35:793][719]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.09.35:837][719]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.09.35:837][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.09.35:837][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.09.35:837][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.09.35:838][719]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.09.35:854][719]LogInit: FAudioDevice initialized.
+[2021.03.23-16.09.35:882][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.09.35:883][719]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.09.35:883][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.09.35
+[2021.03.23-16.09.35:884][719]LogWorld: Bringing up level for play took: 0.000327
+[2021.03.23-16.09.35:884][719]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2021.03.23-16.09.35:886][719]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.23-16.09.35:887][719]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.09.35:889][719]PIE: Server logged in
+[2021.03.23-16.09.35:891][719]PIE: Play in editor total start time 0,156 seconds.
+[2021.03.23-16.10.42:449][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.10.42:449][389]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.10.42:450][389]LogSlate: Window 'ProjetUnreal Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.23-16.10.42:497][389]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.10.42:497][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.10.42:508][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.10.42:514][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.10.42:573][389]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018CA8E95A80), frame # 427389
+[2021.03.23-16.10.42:573][389]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018C7AE60E00), frame # 427389
+[2021.03.23-16.10.42:577][389]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2021.03.23-16.10.42:625][390]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2021.03.23-16.11.01:690][528]BlueprintLog: New page: Compile Options
+[2021.03.23-16.11.01:764][528]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2021.03.23-16.11.01:825][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Options" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset" SILENT=true
+[2021.03.23-16.11.02:742][528]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/OptionsB880B46A412D8A5C4B95878BA9EED101.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset'
+[2021.03.23-16.11.02:773][528]AssetCheck: New page: Asset Save: Options
+[2021.03.23-16.11.02:773][528]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
+[2021.03.23-16.11.03:512][571]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.11.03:537][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-16.11.03:537][571]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:11:03)
+[2021.03.23-16.11.03:537][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.11.03:538][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000920s)
+[2021.03.23-16.11.03:539][571]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.11.03:539][571]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018C93CA0E00), frame # 428571
+[2021.03.23-16.11.03:539][571]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C817E07C0), frame # 428571
+[2021.03.23-16.11.03:539][571]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2021.03.23-16.11.03:539][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.001951s)
+[2021.03.23-16.11.03:585][571]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2021.03.23-16.11.03:586][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.11.03:586][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.11.03:586][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.11.03:587][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.11.03:587][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.11.03:587][571]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.11.03:587][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.11.03:587][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.11.03:587][571]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.11.03:587][571]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.11.03:597][571]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.11.03:597][571]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.11.03:647][571]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.11.03:648][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.11.03:648][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.11.03:648][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.11.03:648][571]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.11.03:668][571]LogInit: FAudioDevice initialized.
+[2021.03.23-16.11.03:697][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.11.03:697][571]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.11.03:698][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.11.03
+[2021.03.23-16.11.03:698][571]LogWorld: Bringing up level for play took: 0.000492
+[2021.03.23-16.11.03:698][571]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2021.03.23-16.11.03:700][571]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.23-16.11.03:702][571]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.11.03:704][571]PIE: Server logged in
+[2021.03.23-16.11.03:705][571]PIE: Play in editor total start time 0,168 seconds.
+[2021.03.23-16.11.18:918][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.11.18:918][478]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.11.18:919][478]LogSlate: Window 'ProjetUnreal Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.23-16.11.18:926][478]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.11.18:926][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.11.18:933][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.11.18:939][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.11.18:998][478]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018C817E07C0), frame # 429478
+[2021.03.23-16.11.18:998][478]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018C93CA0E00), frame # 429478
+[2021.03.23-16.11.19:002][478]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.03.23-16.11.19:041][479]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2021.03.23-16.11.41:607][812]BlueprintLog: New page: Compile Options
+[2021.03.23-16.11.41:684][812]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2021.03.23-16.11.41:835][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Options" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset" SILENT=true
+[2021.03.23-16.11.42:033][812]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Options27BFFA3645394CCB36B108B80844A81F.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset'
+[2021.03.23-16.11.42:057][812]AssetCheck: New page: Asset Save: Options
+[2021.03.23-16.11.42:057][812]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
+[2021.03.23-16.12.28:882][591]BlueprintLog: New page: Compile Menu
+[2021.03.23-16.12.28:937][591]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2021.03.23-16.12.29:069][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Menu" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Menu.uasset" SILENT=true
+[2021.03.23-16.12.29:096][591]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Menu4A88BA814ADBCC135B057B9A993A2377.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Menu.uasset'
+[2021.03.23-16.12.29:110][591]AssetCheck: New page: Asset Save: Menu
+[2021.03.23-16.12.29:110][591]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Menu.Menu
+[2021.03.23-16.13.21:175][691]BlueprintLog: New page: Compile Options
+[2021.03.23-16.13.21:250][691]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2021.03.23-16.13.21:299][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Options" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset" SILENT=true
+[2021.03.23-16.13.21:358][691]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/OptionsE41412944D9D2E8597B07790BDFB90CB.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset'
+[2021.03.23-16.13.21:377][691]AssetCheck: New page: Asset Save: Options
+[2021.03.23-16.13.21:377][691]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
+[2021.03.23-16.13.22:115][734]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.13.22:142][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-16.13.22:142][734]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:13:22)
+[2021.03.23-16.13.22:142][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.13.22:143][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000899s)
+[2021.03.23-16.13.22:144][734]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.13.22:144][734]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018CC679FE00), frame # 436734
+[2021.03.23-16.13.22:144][734]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C94EA4F40), frame # 436734
+[2021.03.23-16.13.22:144][734]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2021.03.23-16.13.22:144][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.001932s)
+[2021.03.23-16.13.22:181][734]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.13.22:182][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.13.22:182][734]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.13.22:182][734]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.13.22:191][734]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.13.22:191][734]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.13.22:231][734]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.13.22:231][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.13.22:231][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.13.22:231][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.13.22:232][734]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.13.22:246][734]LogInit: FAudioDevice initialized.
+[2021.03.23-16.13.22:274][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.13.22:274][734]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.13.22:275][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.13.22
+[2021.03.23-16.13.22:275][734]LogWorld: Bringing up level for play took: 0.000464
+[2021.03.23-16.13.22:276][734]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2021.03.23-16.13.22:278][734]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.23-16.13.22:279][734]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.13.22:281][734]PIE: Server logged in
+[2021.03.23-16.13.22:282][734]PIE: Play in editor total start time 0,143 seconds.
+[2021.03.23-16.13.22:902][770]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.13.22:903][770]LogBlueprintUserMessages: [Options_C_0] Space Bar
+[2021.03.23-16.13.22:903][770]LogBlueprintUserMessages: [Options_C_0] Left Mouse Button
+[2021.03.23-16.13.22:903][770]LogBlueprintUserMessages: [Options_C_0] Right Mouse Button
+[2021.03.23-16.13.22:903][770]LogBlueprintUserMessages: [Options_C_0] S
+[2021.03.23-16.13.22:903][770]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.13.22:903][770]LogBlueprintUserMessages: [Options_C_0] Q
+[2021.03.23-16.13.22:903][770]LogBlueprintUserMessages: [Options_C_0] D
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] Space Bar
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] Left Mouse Button
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] Right Mouse Button
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] S
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] D
+[2021.03.23-16.13.31:086][261]LogBlueprintUserMessages: [Options_C_0] H
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] Space Bar
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] Left Mouse Button
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] Right Mouse Button
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] S
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] H
+[2021.03.23-16.13.34:369][458]LogBlueprintUserMessages: [Options_C_0] J
+[2021.03.23-16.13.38:487][705]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.13.38:487][705]LogBlueprintUserMessages: [Options_C_1] Space Bar
+[2021.03.23-16.13.38:487][705]LogBlueprintUserMessages: [Options_C_1] Left Mouse Button
+[2021.03.23-16.13.38:487][705]LogBlueprintUserMessages: [Options_C_1] Right Mouse Button
+[2021.03.23-16.13.38:487][705]LogBlueprintUserMessages: [Options_C_1] S
+[2021.03.23-16.13.38:488][705]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.13.38:488][705]LogBlueprintUserMessages: [Options_C_1] Q
+[2021.03.23-16.13.38:488][705]LogBlueprintUserMessages: [Options_C_1] D
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] Space Bar
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] Left Mouse Button
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] Right Mouse Button
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] Q
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] D
+[2021.03.23-16.14.23:133][304]LogBlueprintUserMessages: [Options_C_1] Enter
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] Space Bar
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] Left Mouse Button
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] Right Mouse Button
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] D
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] Enter
+[2021.03.23-16.14.25:516][447]LogBlueprintUserMessages: [Options_C_1] Exclamation
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] Z
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] Space Bar
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] Left Mouse Button
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] Right Mouse Button
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] Z
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] D
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] S
+[2021.03.23-16.14.44:257][256]LogBlueprintUserMessages: [Options_C_2] Q
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] Z
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] Space Bar
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] Left Mouse Button
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] Right Mouse Button
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] D
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] S
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] Q
+[2021.03.23-16.15.36:104][365]LogBlueprintUserMessages: [Options_C_2] K
+[2021.03.23-16.15.37:904][473]LogBlueprintUserMessages: [Options_C_2] Z
+[2021.03.23-16.15.37:905][473]LogBlueprintUserMessages: [Options_C_2] Space Bar
+[2021.03.23-16.15.37:905][473]LogBlueprintUserMessages: [Options_C_2] Left Mouse Button
+[2021.03.23-16.15.37:905][473]LogBlueprintUserMessages: [Options_C_2] Right Mouse Button
+[2021.03.23-16.15.37:905][473]LogBlueprintUserMessages: [Options_C_2] D
+[2021.03.23-16.15.37:905][473]LogBlueprintUserMessages: [Options_C_2] Q
+[2021.03.23-16.15.37:905][473]LogBlueprintUserMessages: [Options_C_2] K
+[2021.03.23-16.15.37:905][473]LogBlueprintUserMessages: [Options_C_2] Colon
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] Z
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] Space Bar
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] Left Mouse Button
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] Right Mouse Button
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] D
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] K
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] Colon
+[2021.03.23-16.15.38:856][530]LogBlueprintUserMessages: [Options_C_2] Comma
+[2021.03.23-16.15.54:949][946]LogRenderer: Reallocating scene render targets to support 1280x1008 Format 10 NumSamples 1 (Frame:6868).
+[2021.03.23-16.16.07:742][702]LogBlueprintUserMessages: [Options_C_3] Z
+[2021.03.23-16.16.07:742][702]LogBlueprintUserMessages: [Options_C_3] Space Bar
+[2021.03.23-16.16.07:742][702]LogBlueprintUserMessages: [Options_C_3] Left Mouse Button
+[2021.03.23-16.16.07:742][702]LogBlueprintUserMessages: [Options_C_3] Right Mouse Button
+[2021.03.23-16.16.07:742][702]LogBlueprintUserMessages: [Options_C_3] D
+[2021.03.23-16.16.07:743][702]LogBlueprintUserMessages: [Options_C_3] Z
+[2021.03.23-16.16.07:743][702]LogBlueprintUserMessages: [Options_C_3] S
+[2021.03.23-16.16.07:743][702]LogBlueprintUserMessages: [Options_C_3] Q
+[2021.03.23-16.17.13:237][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.17.13:237][597]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.17.13:238][597]LogSlate: Window 'ProjetUnreal Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.23-16.17.13:241][597]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.17.13:241][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.17.13:249][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.17.13:255][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.17.13:317][597]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018C94EA4F40), frame # 448597
+[2021.03.23-16.17.13:318][597]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018CC679FE00), frame # 448597
+[2021.03.23-16.17.13:322][597]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2021.03.23-16.17.13:373][598]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2021.03.23-16.18.45:852][109]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.18.45:878][109]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.23-16.18.45:885][109]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2021.03.23-16.18.45:979][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Options" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset" SILENT=true
+[2021.03.23-16.18.46:037][109]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Options53BCB37B4C07EB0999BE6EB15A090E7A.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset'
+[2021.03.23-16.18.46:088][109]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2021.03.23-16.18.46:091][109]LogPlayLevel: PlayLevel: Blueprint regeneration took 213 ms (1 blueprints)
+[2021.03.23-16.18.46:091][109]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:18:46)
+[2021.03.23-16.18.46:091][109]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.18.46:092][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000963s)
+[2021.03.23-16.18.46:093][109]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.18.46:093][109]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018C93DC8800), frame # 454109
+[2021.03.23-16.18.46:093][109]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018CC44A0680), frame # 454109
+[2021.03.23-16.18.46:093][109]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2021.03.23-16.18.46:093][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.002051s)
+[2021.03.23-16.18.46:131][109]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.18.46:132][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.18.46:132][109]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.18.46:132][109]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.18.46:141][109]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.18.46:141][109]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.18.46:182][109]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.18.46:182][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.18.46:182][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.18.46:182][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.18.46:183][109]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.18.46:199][109]LogInit: FAudioDevice initialized.
+[2021.03.23-16.18.46:209][109]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.18.46:210][109]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.18.46
+[2021.03.23-16.18.46:210][109]LogWorld: Bringing up level for play took: 0.000315
+[2021.03.23-16.18.46:210][109]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2021.03.23-16.18.46:212][109]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.18.46:213][109]PIE: Server logged in
+[2021.03.23-16.18.46:213][109]PIE: Play in editor total start time 0,336 seconds.
+[2021.03.23-16.18.46:231][110]AssetCheck: New page: Asset Save: Options
+[2021.03.23-16.18.46:231][110]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] Space Bar
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] Left Mouse Button
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] Right Mouse Button
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] D
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] Z
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] S
+[2021.03.23-16.18.55:904][689]LogBlueprintUserMessages: [Options_C_0] Q
+[2021.03.23-16.19.02:248][ 69]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.19.02:248][ 69]LogBlueprintUserMessages: [Options_C_1] Space Bar
+[2021.03.23-16.19.02:249][ 69]LogBlueprintUserMessages: [Options_C_1] Left Mouse Button
+[2021.03.23-16.19.02:249][ 69]LogBlueprintUserMessages: [Options_C_1] Right Mouse Button
+[2021.03.23-16.19.02:249][ 69]LogBlueprintUserMessages: [Options_C_1] D
+[2021.03.23-16.19.02:249][ 69]LogBlueprintUserMessages: [Options_C_1] Z
+[2021.03.23-16.19.02:249][ 69]LogBlueprintUserMessages: [Options_C_1] S
+[2021.03.23-16.19.02:249][ 69]LogBlueprintUserMessages: [Options_C_1] Q
+[2021.03.23-16.19.24:198][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.19.24:198][381]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.19.24:198][381]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.19.24:198][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.19.24:204][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.19.24:210][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.19.24:272][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.19.24:273][381]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018CC44A0680), frame # 456381
+[2021.03.23-16.19.24:273][381]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018C93DC8800), frame # 456381
+[2021.03.23-16.19.24:277][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.03.23-16.19.24:320][382]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2021.03.23-16.19.31:461][805]BlueprintLog: New page: Compile Options
+[2021.03.23-16.19.31:538][805]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2021.03.23-16.19.31:583][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Options" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset" SILENT=true
+[2021.03.23-16.19.31:636][805]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/OptionsBDBEAE224A7E2FB86908C3961AB2A65A.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset'
+[2021.03.23-16.19.31:652][805]AssetCheck: New page: Asset Save: Options
+[2021.03.23-16.19.31:652][805]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
+[2021.03.23-16.22.40:126][290]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.23-16.22.51:256][290]LogSlate: Window 'Pick Slate Widget Style Class' being destroyed
+[2021.03.23-16.23.34:169][665]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.23-16.23.53:938][847]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/JMenu/CurrentKey_BP.CurrentKey_BP
+[2021.03.23-16.24.24:709][662]BlueprintLog: New page: Compile CurrentKey_BP
+[2021.03.23-16.24.24:764][662]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2021.03.23-16.24.24:801][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/CurrentKey_BP" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/CurrentKey_BP.uasset" SILENT=true
+[2021.03.23-16.24.24:811][662]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/CurrentKey_BP185216344707A3EDD151D2B099101BF6.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/CurrentKey_BP.uasset'
+[2021.03.23-16.24.24:829][662]AssetCheck: New page: Asset Save: CurrentKey_BP
+[2021.03.23-16.24.24:829][662]LogContentValidation: Display: Validating Blueprint /Game/JMenu/CurrentKey_BP.CurrentKey_BP
+[2021.03.23-16.24.39:677][548]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.24.39:678][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.24.46:415][931]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.03.23-16.24.47:775][  5]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2021.03.23-16.24.48:755][  5]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.23-16.24.50:340][  5]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/JMenu/CurrentKey_BP1.CurrentKey_BP1
+[2021.03.23-16.24.53:418][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.03.23-16.24.55:215][108]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2021.03.23-16.24.56:333][108]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.23-16.24.57:555][108]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/JMenu/CurrentKey_BP.CurrentKey_BP
+[2021.03.23-16.24.58:285][108]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2021.03.23-16.24.58:330][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.03.23-16.24.58:365][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.03.23-16.25.56:254][567]LogObjectTools: Deleting 1 worlds: /Game/JMenu/NewWorld.NewWorld
+[2021.03.23-16.25.56:254][567]LogObjectTools: Currently 15 active worlds: /Game/Maps/MapTestMenu.MapTestMenu, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_12, /Engine/Transient.World_15, /Engine/Transient.World_16
+[2021.03.23-16.25.56:297][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.03.23-16.25.57:110][567]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.23-16.25.57:127][567]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.25.57:127][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.25.57:204][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.03.23-16.25.58:739][643]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.23-16.26.10:989][643]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.23-16.26.22:516][330]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/JMenu/CurrentKey.CurrentKey
+[2021.03.23-16.26.41:280][417]BlueprintLog: New page: Compile CurrentKey
+[2021.03.23-16.26.41:344][417]LogUObjectHash: Compacting FUObjectHashTables data took   6.83ms
+[2021.03.23-16.26.41:378][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/CurrentKey" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/CurrentKey.uasset" SILENT=true
+[2021.03.23-16.26.41:388][417]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/CurrentKey186808584C66A48F25208890C8005422.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/CurrentKey.uasset'
+[2021.03.23-16.26.41:404][417]AssetCheck: New page: Asset Save: CurrentKey
+[2021.03.23-16.26.41:404][417]LogContentValidation: Display: Validating Blueprint /Game/JMenu/CurrentKey.CurrentKey
+[2021.03.23-16.26.54:107][170]BlueprintLog: New page: Compile CurrentKey
+[2021.03.23-16.26.54:173][170]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2021.03.23-16.26.54:204][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/CurrentKey" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/CurrentKey.uasset" SILENT=true
+[2021.03.23-16.26.54:294][170]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/CurrentKey1D6461EB443E4F3734A103994CE34CD3.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/CurrentKey.uasset'
+[2021.03.23-16.26.54:309][170]AssetCheck: New page: Asset Save: CurrentKey
+[2021.03.23-16.26.54:310][170]LogContentValidation: Display: Validating Blueprint /Game/JMenu/CurrentKey.CurrentKey
+[2021.03.23-16.27.14:347][367]BlueprintLog: New page: Compile Options
+[2021.03.23-16.27.14:363][367]LogBlueprint: Error: [Compiler Options] The current value of the ' Target Map ' pin is invalid: Map inputs (like 'Target Map') must have an input wired into them (try connecting a MakeMap node).
+[2021.03.23-16.27.14:363][367]LogBlueprint: Error: [Compiler Options] The current value of the ' Target Map ' pin is invalid: Map inputs (like 'Target Map') must have an input wired into them (try connecting a MakeMap node).
+[2021.03.23-16.27.14:416][367]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2021.03.23-16.27.42:629][ 35]BlueprintLog: New page: Compile Options
+[2021.03.23-16.27.42:644][ 35]LogBlueprint: Error: [Compiler Options] The type of  Object  is undetermined.  Connect something to  Cast To CurrentKey  to imply a specific type.
+[2021.03.23-16.27.42:645][ 35]LogBlueprint: Error: [Compiler Options] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2021.03.23-16.27.42:699][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2021.03.23-16.28.17:751][118]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.23-16.30.17:374][144]BlueprintLog: New page: Compile Options
+[2021.03.23-16.30.17:448][144]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2021.03.23-16.30.17:492][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Options" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset" SILENT=true
+[2021.03.23-16.30.17:553][144]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/OptionsDC82E8844AE376D20A5FD0A39C24B57E.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset'
+[2021.03.23-16.30.17:572][144]AssetCheck: New page: Asset Save: Options
+[2021.03.23-16.30.17:572][144]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
+[2021.03.23-16.31.35:230][785]BlueprintLog: New page: Compile Options
+[2021.03.23-16.31.35:252][785]LogBlueprint: Error: [Compiler Options] The current value of the ' Target Map ' pin is invalid: Map inputs (like 'Target Map') must have an input wired into them (try connecting a MakeMap node).
+[2021.03.23-16.31.35:310][785]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2021.03.23-16.32.16:760][252]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.23-16.32.29:062][980]BlueprintLog: New page: Compile Options
+[2021.03.23-16.32.29:130][980]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2021.03.23-16.32.29:172][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JMenu/Options" FILE="../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset" SILENT=true
+[2021.03.23-16.32.29:224][980]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Options265926E24256D08E6BF950961EE720B4.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/JMenu/Options.uasset'
+[2021.03.23-16.32.29:244][980]AssetCheck: New page: Asset Save: Options
+[2021.03.23-16.32.29:244][980]LogContentValidation: Display: Validating WidgetBlueprint /Game/JMenu/Options.Options
+[2021.03.23-16.32.37:751][472]Cmd: DELETE
+[2021.03.23-16.32.37:751][472]Cmd: ACTOR DELETE
+[2021.03.23-16.32.38:282][472]LogEditorActor: Deleted Actor: CurrentKey_C
+[2021.03.23-16.32.38:332][472]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2021.03.23-16.32.38:334][472]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.03.23-16.32.40:150][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.03.23-16.32.40:173][575]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/MapTestMenu8C663A5E444C902215F1F796650C1CFD.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Maps/MapTestMenu.umap'
+[2021.03.23-16.32.40:243][575]AssetCheck: New page: Asset Save: MapTestMenu
+[2021.03.23-16.32.40:243][575]LogContentValidation: Display: Validating World /Game/Maps/MapTestMenu.MapTestMenu
+[2021.03.23-16.33.03:626][965]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.23-16.33.08:546][257]BlueprintLog: New page: Compile MapTestMenu
+[2021.03.23-16.33.08:548][257]LogBlueprint: Error: [Compiler PersistentLevel.MapTestMenu] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.03.23-16.33.08:548][257]LogBlueprint: Error: [Compiler PersistentLevel.MapTestMenu] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.03.23-16.33.08:619][257]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2021.03.23-16.33.22:245][ 68]BlueprintLog: New page: Compile MapTestMenu
+[2021.03.23-16.33.22:311][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.03.23-16.33.22:381][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.03.23-16.33.22:400][ 68]LogSavePackage: Moving '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/MapTestMenu89FD14C5415BF756A83B058812446120.tmp' to '../../../../UE_4.25_Projects/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Maps/MapTestMenu.umap'
+[2021.03.23-16.33.22:449][ 68]LogFileHelpers: Saving map 'MapTestMenu' took 0.108
+[2021.03.23-16.33.22:462][ 68]AssetCheck: New page: Asset Save: MapTestMenu
+[2021.03.23-16.33.22:462][ 68]LogContentValidation: Display: Validating World /Game/Maps/MapTestMenu.MapTestMenu
+[2021.03.23-16.33.41:713][106]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.33.41:741][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-16.33.41:741][106]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:33:41)
+[2021.03.23-16.33.41:741][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.33.41:742][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000916s)
+[2021.03.23-16.33.41:743][106]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.33.41:743][106]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018CFFB02000), frame # 497106
+[2021.03.23-16.33.41:743][106]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C33DDB100), frame # 497106
+[2021.03.23-16.33.41:743][106]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2021.03.23-16.33.41:743][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.002021s)
+[2021.03.23-16.33.41:788][106]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2021.03.23-16.33.41:789][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.33.41:789][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.33.41:789][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.33.41:789][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.33.41:789][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.33.41:789][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.33.41:789][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.33.41:789][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.33.41:790][106]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.33.41:790][106]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.33.41:802][106]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.33.41:802][106]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.33.41:852][106]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.33.41:852][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.33.41:852][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.33.41:852][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.33.41:853][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.33.41:872][106]LogInit: FAudioDevice initialized.
+[2021.03.23-16.33.41:882][106]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.33.41:884][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.33.41
+[2021.03.23-16.33.41:884][106]LogWorld: Bringing up level for play took: 0.000379
+[2021.03.23-16.33.41:884][106]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2021.03.23-16.33.41:887][106]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.33.41:887][106]PIE: Server logged in
+[2021.03.23-16.33.41:888][106]PIE: Play in editor total start time 0,15 seconds.
+[2021.03.23-16.33.53:927][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.33.53:927][688]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.33.53:927][688]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.33.53:928][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.33.53:933][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.33.53:939][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.33.53:999][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.33.54:000][688]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018C33DDB100), frame # 497688
+[2021.03.23-16.33.54:000][688]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018CFFB02000), frame # 497688
+[2021.03.23-16.33.54:003][688]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.03.23-16.33.54:072][689]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2021.03.23-16.34.01:999][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-16.34.02:024][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-16.34.02:024][ 26]PIE: New page: PIE session: MapTestMenu (23 mars 2021 à 18:34:02)
+[2021.03.23-16.34.02:024][ 26]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.34.02:025][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001001s)
+[2021.03.23-16.34.02:027][ 26]LogAIModule: Creating AISystem for world MapTestMenu
+[2021.03.23-16.34.02:028][ 26]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018CF5641A00), frame # 498026
+[2021.03.23-16.34.02:030][ 26]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C88381940), frame # 498026
+[2021.03.23-16.34.02:031][ 26]LogPlayLevel: PIE: World Init took: (0.005415s)
+[2021.03.23-16.34.02:031][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestMenu.MapTestMenu to /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu (0.006539s)
+[2021.03.23-16.34.02:074][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.03.23-16.34.02:076][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-16.34.02:076][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-16.34.02:076][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-16.34.02:076][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-16.34.02:076][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-16.34.02:076][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-16.34.02:076][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-16.34.02:076][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-16.34.02:076][ 26]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-16.34.02:077][ 26]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-16.34.02:088][ 26]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-16.34.02:088][ 26]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-16.34.02:141][ 26]LogAudioMixer: Display: Using Audio Device Haut-parleur/Ecouteurs (Realtek High Definition Audio)
+[2021.03.23-16.34.02:141][ 26]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-16.34.02:141][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-16.34.02:141][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-16.34.02:142][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-16.34.02:166][ 26]LogInit: FAudioDevice initialized.
+[2021.03.23-16.34.02:175][ 26]LogLoad: Game class is 'JMenuGameMode_C'
+[2021.03.23-16.34.02:176][ 26]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestMenu.MapTestMenu up for play (max tick rate 60) at 2021.03.23-17.34.02
+[2021.03.23-16.34.02:177][ 26]LogWorld: Bringing up level for play took: 0.000418
+[2021.03.23-16.34.02:177][ 26]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2021.03.23-16.34.02:181][ 26]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.23-16.34.02:181][ 26]PIE: Server logged in
+[2021.03.23-16.34.02:182][ 26]PIE: Play in editor total start time 0,159 seconds.
+[2021.03.23-16.34.36:467][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.34.36:468][ 77]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestMenu
+[2021.03.23-16.34.36:468][ 77]LogWorld: UWorld::CleanupWorld for MapTestMenu, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-16.34.36:468][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.34.36:478][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-16.34.36:483][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-16.34.36:548][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-16.34.36:549][ 77]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018C88381940), frame # 500077
+[2021.03.23-16.34.36:549][ 77]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018CF5641A00), frame # 500077
+[2021.03.23-16.34.36:553][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.03.23-16.34.36:624][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_58
