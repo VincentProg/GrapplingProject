@@ -1,0 +1,1767 @@
+﻿Log file open, 03/25/21 11:10:13
+LogInit: Display: Running engine for game: ProjetUnreal
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.195495
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Logiciel/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.25-10.10.14:226][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.25-10.10.14:226][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.25-10.10.14:226][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+[2021.03.25-10.10.14:226][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.25-10.10.14:226][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.03.25-10.10.14:226][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+[2021.03.25-10.10.14:227][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.25-10.10.14:227][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+[2021.03.25-10.10.14:227][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+[2021.03.25-10.10.14:235][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.25-10.10.14:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.25-10.10.14:236][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.25-10.10.14:237][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.25-10.10.14:237][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.25-10.10.14:237][  0]LogHAL: Display: Platform has ~ 16 GB [17130008576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.25-10.10.14:237][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.25-10.10.14:237][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.25-10.10.14:237][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:237][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.25-10.10.14:238][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.25-10.10.14:239][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Scalability.ini]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.25-10.10.14:240][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Config/Windows/Engine.ini]
+[2021.03.25-10.10.14:240][  0]LogInit: Computer: DESKTOP-6S3RSQH
+[2021.03.25-10.10.14:240][  0]LogInit: User: User
+[2021.03.25-10.10.14:240][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.03.25-10.10.14:240][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.25-10.10.14:241][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.03.25-10.10.14:241][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.25-10.10.14:241][  0]LogMemory: Process Physical Memory: 116.34 MB used, 116.34 MB peak
+[2021.03.25-10.10.14:241][  0]LogMemory: Process Virtual Memory: 106.30 MB used, 106.30 MB peak
+[2021.03.25-10.10.14:241][  0]LogMemory: Physical Memory: 7399.63 MB used,  8936.82 MB free, 16336.45 MB total
+[2021.03.25-10.10.14:241][  0]LogMemory: Virtual Memory: 5174.11 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2021.03.25-10.10.14:251][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.25-10.10.14:346][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.25-10.10.14:347][  0]LogInit: Using OS detected language (en-US).
+[2021.03.25-10.10.14:347][  0]LogInit: Using OS detected locale (en-US).
+[2021.03.25-10.10.14:350][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.03.25-10.10.14:566][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.25-10.10.14:610][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.25-10.10.14:610][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.25-10.10.14:806][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.25-10.10.14:806][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.25-10.10.14:806][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.25-10.10.14:806][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.25-10.10.14:926][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2021.03.25-10.10.14:926][  0]LogD3D11RHI:       8031/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.25-10.10.14:929][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.25-10.10.14:929][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.25-10.10.14:929][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.25-10.10.14:938][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.25-10.10.14:939][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.25-10.10.14:939][  0]LogWindows: EnumDisplayDevices:
+[2021.03.25-10.10.14:939][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2021.03.25-10.10.14:939][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2021.03.25-10.10.14:940][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.03.25-10.10.14:940][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.03.25-10.10.14:941][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.25-10.10.14:941][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2021.03.25-10.10.14:941][  0]LogD3D11RHI:   Driver Version: 461.72 (internal:27.21.14.6172, unified:461.72)
+[2021.03.25-10.10.14:941][  0]LogD3D11RHI:      Driver Date: 2-23-2021
+[2021.03.25-10.10.14:941][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.03.25-10.10.15:024][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.25-10.10.15:024][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.25-10.10.15:024][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.25-10.10.15:050][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.25-10.10.15:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.25-10.10.15:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.25-10.10.15:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.25-10.10.15:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.25-10.10.15:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.25-10.10.15:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.25-10.10.15:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.25-10.10.15:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.25-10.10.15:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.25-10.10.15:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.25-10.10.15:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.25-10.10.15:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.25-10.10.15:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.25-10.10.15:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.25-10.10.15:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.25-10.10.15:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.25-10.10.15:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.25-10.10.15:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.25-10.10.15:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.25-10.10.15:622][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.25-10.10.15:631][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.25-10.10.15:699][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Intermediate/Shaders/WorkingDirectory/8020/).
+[2021.03.25-10.10.15:700][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/F438E1264C013017DB23359B4D73BB45/'.
+[2021.03.25-10.10.15:700][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.25-10.10.15:700][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.25-10.10.15:700][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.25-10.10.16:550][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.25-10.10.16:605][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/User/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.25-10.10.16:605][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.25-10.10.16:605][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.25-10.10.16:606][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.25-10.10.16:606][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.25-10.10.16:606][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.25-10.10.16:617][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.25-10.10.16:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.25-10.10.16:617][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.25-10.10.16:619][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.25-10.10.16:619][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.25-10.10.16:619][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.25-10.10.16:676][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.25-10.10.16:676][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.25-10.10.16:705][  0]LogAssetRegistry: FAssetRegistry took 0.0037 seconds to start up
+[2021.03.25-10.10.16:966][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.25-10.10.17:084][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.25-10.10.17:084][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.25-10.10.17:084][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.25-10.10.17:084][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.25-10.10.17:084][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.25-10.10.17:102][  0]LogNetVersion: ProjetUnreal 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 712950808)
+[2021.03.25-10.10.17:531][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000028D0549DBC0), frame # 0
+[2021.03.25-10.10.17:531][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D09D56AC0), frame # 0
+[2021.03.25-10.10.17:532][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028D0543E000), frame # 0
+[2021.03.25-10.10.17:575][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.035778 seconds
+[2021.03.25-10.10.17:581][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.25-10.10.17:581][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.25-10.10.17:581][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.25-10.10.18:163][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2021.03.25-10.10.18:174][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.25-10.10.18:179][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.25-10.10.18:504][  0]SourceControl: Source control is disabled
+[2021.03.25-10.10.18:504][  0]SourceControl: Source control is disabled
+[2021.03.25-10.10.18:507][  0]SourceControl: Source control is disabled
+[2021.03.25-10.10.18:511][  0]SourceControl: Source control is disabled
+[2021.03.25-10.10.18:519][  0]SourceControl: Source control is disabled
+[2021.03.25-10.10.18:792][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.25-10.10.18:815][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.25-10.10.18:815][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.25-10.10.18:871][  0]LogOcInput: OculusInput pre-init called
+[2021.03.25-10.10.18:883][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.25-10.10.18:883][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.25-10.10.19:083][  0]LogEngine: Initializing Engine...
+[2021.03.25-10.10.19:085][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.25-10.10.19:085][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.25-10.10.19:086][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.25-10.10.19:948][  0]LogTexture: Display: Building textures: Bouton_3 (BGRA8, 1024X382)
+[2021.03.25-10.10.19:948][  0]LogTexture: Display: Building textures: Bouton_4 (BGRA8, 1024X382)
+[2021.03.25-10.10.19:948][  0]LogTexture: Display: Building textures: Menu_1 (BGRA8, 1611X1063)
+[2021.03.25-10.10.19:948][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.25-10.10.19:958][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.25-10.10.19:958][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028D104CA200), frame # 0
+[2021.03.25-10.10.19:958][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D104A5800), frame # 0
+[2021.03.25-10.10.19:962][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.10.19:963][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.10.19:963][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.10.19:963][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.10.19:963][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.10.19:963][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.10.19:963][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.10.19:963][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.10.19:963][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.10.19:963][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.10.19:978][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.10.19:978][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.10.20:022][  0]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.10.20:025][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.10.20:027][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.10.20:027][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.10.20:028][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.10.20:029][  0]LogInit: FAudioDevice initialized.
+[2021.03.25-10.10.20:029][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.25-10.10.20:126][  0]LogDerivedDataCache: Saved boot cache 0.10s 87MB C:/Users/User/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.25-10.10.20:126][  0]LogInit: Texture streaming: Enabled
+[2021.03.25-10.10.20:148][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.25-10.10.20:148][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.25-10.10.20:153][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.25-10.10.20:222][  0]LogInit: Transaction tracking system initialized
+[2021.03.25-10.10.20:248][  0]BlueprintLog: New page: Editor Load
+[2021.03.25-10.10.20:328][  0]LocalizationService: Localization service is disabled
+[2021.03.25-10.10.20:514][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.25-10.10.20:514][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.25-10.10.20:699][  0]LogFileCache: Scanning file cache for directory 'D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/' took 0.01s
+[2021.03.25-10.10.20:929][  0]SourceControl: Source control is disabled
+[2021.03.25-10.10.20:929][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.374
+[2021.03.25-10.10.20:929][  0]Cmd: MAP LOAD FILE="../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Maps/MapTestVincent.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.25-10.10.20:930][  0]LightingResults: New page: Lighting Build
+[2021.03.25-10.10.20:931][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.10.20:931][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.10.20:931][  0]MapCheck: New page: Map Check
+[2021.03.25-10.10.20:931][  0]LightingResults: New page: Lighting Build
+[2021.03.25-10.10.20:950][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028D104CA200), frame # 0
+[2021.03.25-10.10.20:950][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028D104A5800), frame # 0
+[2021.03.25-10.10.20:952][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.03.25-10.10.21:204][  0]LogStaticMesh: Building static mesh Pyramid...
+[2021.03.25-10.10.21:224][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VArt/Pyramid/Mesh/Pyramid.Pyramid
+[2021.03.25-10.10.21:231][  0]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.10.21:231][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028D1CD63E00), frame # 0
+[2021.03.25-10.10.21:231][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D1D01E700), frame # 0
+[2021.03.25-10.10.21:238][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.25-10.10.21:261][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.25-10.10.21:261][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.25-10.10.21:262][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2021.03.25-10.10.21:262][  0]LogFileHelpers: Loading map 'MapTestVincent' took 0.332
+[2021.03.25-10.10.21:262][  0]LogAssetRegistry: Flushing asset discovery search because of synchronous request, this can take several seconds...
+[2021.03.25-10.10.21:285][  0]LogAssetRegistry: Asset discovery search completed in 0.0231 seconds
+[2021.03.25-10.10.21:294][  0]LogCollectionManager: Loaded 0 collections in 0.000981 seconds
+[2021.03.25-10.10.21:296][  0]LogFileCache: Scanning file cache for directory 'D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Collections/' took 0.00s
+[2021.03.25-10.10.21:296][  0]LogFileCache: Scanning file cache for directory 'D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Developers/User/Collections/' took 0.00s
+[2021.03.25-10.10.21:296][  0]LogFileCache: Scanning file cache for directory 'D:/IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Collections/' took 0.00s
+[2021.03.25-10.10.21:297][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.03.25-10.10.21:299][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.744
+[2021.03.25-10.10.21:467][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.10.21:482][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3446 classes and 832 folders.
+[2021.03.25-10.10.21:488][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.25-10.10.21:549][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.25-10.10.21:590][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2021.03.25-10.10.21:594][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.03.25-10.10.21:715][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.25-10.10.21:717][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.25-10.10.21:721][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.25-10.10.21:790][  0]LogRenderer: Reallocating scene render targets to support 1028x564 Format 10 NumSamples 1 (Frame:1).
+[2021.03.25-10.10.21:847][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.25-10.10.21:909][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.25-10.10.21:909][  0]LogLoad: (Engine Initialization) Total time: 9.35 seconds
+[2021.03.25-10.10.21:909][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.25-10.10.21:986][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.25-10.10.22:033][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2021.03.25-10.12.32:385][742]LogActorFactory: Actor Factory created Cube
+[2021.03.25-10.12.32:844][793]LogActorFactory: Actor Factory created Cube
+[2021.03.25-10.12.36:282][196]Cmd: DELETE
+[2021.03.25-10.12.36:282][196]Cmd: ACTOR DELETE
+[2021.03.25-10.12.36:284][196]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.03.25-10.12.36:302][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.03.25-10.12.36:305][196]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2021.03.25-10.12.55:039][138]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.03.25-10.12.55:776][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.12.56:243][261]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (Breakable_DM)
+[2021.03.25-10.13.01:367][869]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.25-10.13.04:374][224]LogEditorViewport: Clicking on Component (context menu): DestructibleComponent (DestructibleComponent0)
+[2021.03.25-10.13.08:242][677]LogEditorViewport: Clicking on Actor (context menu): DestructibleActor (Breakable_DM)
+[2021.03.25-10.13.10:222][900]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.25-10.13.10:238][900]LogAssetEditorSubsystem: Opening Asset editor for DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.13.10:474][900]LogRenderer: Reallocating scene render targets to support 1188x920 Format 10 NumSamples 1 (Frame:1).
+[2021.03.25-10.16.53:441][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.16.53:552][292]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DM9AE86BE445212A427D9DA999DE7C9BF6.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.16.53:572][292]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.16.53:572][292]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.16.54:690][411]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.16.54:717][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.16.54:718][411]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:16:54 PM)
+[2021.03.25-10.16.54:719][411]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.25-10.16.54:720][411]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.25-10.16.54:720][411]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.16.54:725][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004443s)
+[2021.03.25-10.16.54:726][411]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.16.54:726][411]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DA7534400), frame # 31411
+[2021.03.25-10.16.54:726][411]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DA7591580), frame # 31411
+[2021.03.25-10.16.54:727][411]LogPlayLevel: PIE: World Init took: (0.002003s)
+[2021.03.25-10.16.54:727][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.006625s)
+[2021.03.25-10.16.54:744][411]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.16.54:747][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.16.54:747][411]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.16.54:747][411]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.16.54:754][411]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.16.54:754][411]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.16.54:777][411]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.16.54:778][411]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.16.54:778][411]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.16.54:778][411]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.16.54:778][411]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.16.54:792][411]LogInit: FAudioDevice initialized.
+[2021.03.25-10.16.54:804][411]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.16.54:843][411]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.16.54
+[2021.03.25-10.16.54:843][411]LogWorld: Bringing up level for play took: 0.038562
+[2021.03.25-10.16.54:843][411]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.25-10.16.54:846][411]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.03.25-10.16.54:865][411]PIE: Server logged in
+[2021.03.25-10.16.54:866][411]PIE: Play in editor total start time 0.153 seconds.
+[2021.03.25-10.16.54:880][411]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.16.57:463][705]Cmd: LevelEditor.ToggleImmersive
+[2021.03.25-10.16.57:500][706]LogRenderer: Reallocating scene render targets to support 1276x920 Format 10 NumSamples 1 (Frame:296).
+[2021.03.25-10.16.57:546][707]LogRenderer: Reallocating scene render targets to support 1648x920 Format 10 NumSamples 1 (Frame:298).
+[2021.03.25-10.16.57:597][708]LogRenderer: Reallocating scene render targets to support 1876x1016 Format 10 NumSamples 1 (Frame:300).
+[2021.03.25-10.16.57:650][709]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:302).
+[2021.03.25-10.16.58:350][791]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.16.58:350][791]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.06:044][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.17.06:044][708]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.17.06:044][708]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.17.06:044][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.17.06:065][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.17.06:067][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.17.06:101][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.17.06:102][708]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DA7534400), frame # 32708
+[2021.03.25-10.17.06:102][708]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DA7591580), frame # 32708
+[2021.03.25-10.17.06:103][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.03.25-10.17.06:132][709]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.25-10.17.09:635][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.17.10:062][166]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (Breakable_DM)
+[2021.03.25-10.17.37:522][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.25-10.17.37:550][392]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/MapTestVincentB143499F48A07C28873C25A430DA293B.tmp' to '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Maps/MapTestVincent.umap'
+[2021.03.25-10.17.37:651][392]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/MapTestVincent_BuiltDataAF2690EB4A9D4290D1722CB3A5503CE1.tmp' to '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Maps/MapTestVincent_BuiltData.uasset'
+[2021.03.25-10.17.37:673][392]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.25-10.17.37:673][392]LogContentValidation: Display: Validating World /Game/Maps/MapTestVincent.MapTestVincent
+[2021.03.25-10.17.37:673][392]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MapTestVincent_BuiltData.MapTestVincent_BuiltData
+[2021.03.25-10.17.38:305][452]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.17.38:333][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.17.38:334][452]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:17:38 PM)
+[2021.03.25-10.17.38:361][452]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.17.38:365][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003971s)
+[2021.03.25-10.17.38:366][452]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.17.38:366][452]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028D763AC200), frame # 36452
+[2021.03.25-10.17.38:366][452]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D2D249E40), frame # 36452
+[2021.03.25-10.17.38:367][452]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2021.03.25-10.17.38:367][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005387s)
+[2021.03.25-10.17.38:382][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.03.25-10.17.38:384][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.17.38:384][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.17.38:384][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.17.38:384][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.17.38:384][452]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.17.38:384][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.17.38:384][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.17.38:384][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.17.38:385][452]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.17.38:385][452]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.17.38:391][452]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.17.38:391][452]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.17.38:413][452]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.17.38:413][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.17.38:413][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.17.38:413][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.17.38:414][452]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.17.38:426][452]LogInit: FAudioDevice initialized.
+[2021.03.25-10.17.38:436][452]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.17.38:438][452]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.17.38
+[2021.03.25-10.17.38:438][452]LogWorld: Bringing up level for play took: 0.001334
+[2021.03.25-10.17.38:438][452]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.03.25-10.17.38:458][452]PIE: Server logged in
+[2021.03.25-10.17.38:458][452]PIE: Play in editor total start time 0.13 seconds.
+[2021.03.25-10.17.38:470][452]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.17.42:167][872]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.42:168][872]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.42:168][872]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.42:168][872]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.42:168][872]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.42:168][872]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.42:168][872]LogScript: Warning: Script Msg: Attempted to access index 2177 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.17.42:442][904]Cmd: LevelEditor.ToggleImmersive
+[2021.03.25-10.17.53:344][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.17.53:344][189]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.17.53:344][189]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.17.53:344][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.17.53:360][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.17.53:362][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.17.53:376][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.17.53:394][189]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028D2D249E40), frame # 38189
+[2021.03.25-10.17.53:394][189]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028D763AC200), frame # 38189
+[2021.03.25-10.17.53:395][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.03.25-10.17.53:424][190]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.25-10.18.13:081][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.18.13:185][490]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DM4F79B4A74B5D22E148D6BCA4F5EBA3A4.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.18.13:203][490]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.18.13:203][490]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.18.14:074][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.18.17:127][955]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.18.17:154][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.18.17:154][955]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:18:17 PM)
+[2021.03.25-10.18.17:191][955]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.18.17:195][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004053s)
+[2021.03.25-10.18.17:197][955]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.18.17:197][955]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DADD00800), frame # 40955
+[2021.03.25-10.18.17:197][955]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D32C6B9C0), frame # 40955
+[2021.03.25-10.18.17:197][955]LogPlayLevel: PIE: World Init took: (0.002155s)
+[2021.03.25-10.18.17:197][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.006428s)
+[2021.03.25-10.18.17:211][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.03.25-10.18.17:212][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.18.17:212][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.18.17:212][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.18.17:212][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.18.17:212][955]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.18.17:212][955]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.18.17:212][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.18.17:212][955]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.18.17:213][955]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.18.17:213][955]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.18.17:219][955]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.18.17:219][955]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.18.17:243][955]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.18.17:243][955]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.18.17:243][955]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.18.17:243][955]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.18.17:243][955]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.18.17:256][955]LogInit: FAudioDevice initialized.
+[2021.03.25-10.18.17:268][955]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.18.17:270][955]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.18.17
+[2021.03.25-10.18.17:270][955]LogWorld: Bringing up level for play took: 0.001437
+[2021.03.25-10.18.17:270][955]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.25-10.18.17:289][955]PIE: Server logged in
+[2021.03.25-10.18.17:290][955]PIE: Play in editor total start time 0.138 seconds.
+[2021.03.25-10.18.17:300][955]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.18.20:979][396]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.20:979][396]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.20:980][396]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.20:980][396]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.20:980][396]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.30:933][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.18.30:933][585]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.18.30:933][585]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.18.30:933][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.18.30:942][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.18.30:943][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.18.30:960][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.18.30:977][585]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028D32C6B9C0), frame # 42585
+[2021.03.25-10.18.30:977][585]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DADD00800), frame # 42585
+[2021.03.25-10.18.30:978][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.03.25-10.18.31:014][586]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.25-10.18.45:898][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.18.46:002][327]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DMA0120CAD48D17101FD4FF8A5EF9E88EF.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.18.46:015][327]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.18.46:015][327]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.18.47:658][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.18.48:743][641]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.18.48:767][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.18.48:767][641]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:18:48 PM)
+[2021.03.25-10.18.48:801][641]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.18.48:805][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003904s)
+[2021.03.25-10.18.48:806][641]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.18.48:806][641]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DAEAB5000), frame # 44641
+[2021.03.25-10.18.48:806][641]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DADC8CB80), frame # 44641
+[2021.03.25-10.18.48:807][641]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2021.03.25-10.18.48:807][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005418s)
+[2021.03.25-10.18.48:823][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.18.48:824][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.18.48:824][641]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.18.48:824][641]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.18.48:831][641]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.18.48:831][641]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.18.48:853][641]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.18.48:853][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.18.48:853][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.18.48:853][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.18.48:853][641]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.18.48:866][641]LogInit: FAudioDevice initialized.
+[2021.03.25-10.18.48:878][641]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.18.48:880][641]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.18.48
+[2021.03.25-10.18.48:880][641]LogWorld: Bringing up level for play took: 0.001550
+[2021.03.25-10.18.48:880][641]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.03.25-10.18.48:899][641]PIE: Server logged in
+[2021.03.25-10.18.48:900][641]PIE: Play in editor total start time 0.134 seconds.
+[2021.03.25-10.18.48:909][641]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.18.52:369][ 56]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.52:369][ 56]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.52:369][ 56]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.52:369][ 56]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.52:369][ 56]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.52:369][ 56]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.18.59:703][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.18.59:703][931]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.18.59:703][931]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.18.59:704][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.18.59:711][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.18.59:713][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.18.59:747][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.18.59:748][931]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DADC8CB80), frame # 45931
+[2021.03.25-10.18.59:748][931]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DAEAB5000), frame # 45931
+[2021.03.25-10.18.59:749][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.25-10.18.59:777][932]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.03.25-10.19.00:830][ 54]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (Breakable_DM)
+[2021.03.25-10.19.06:060][675]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.19.06:088][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.19.06:088][675]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:19:06 PM)
+[2021.03.25-10.19.06:131][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.19.06:136][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004430s)
+[2021.03.25-10.19.06:137][675]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.19.06:137][675]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DAEEBE400), frame # 46675
+[2021.03.25-10.19.06:137][675]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D32C6B600), frame # 46675
+[2021.03.25-10.19.06:138][675]LogPlayLevel: PIE: World Init took: (0.001685s)
+[2021.03.25-10.19.06:138][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.006345s)
+[2021.03.25-10.19.06:154][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.19.06:155][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.19.06:155][675]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.19.06:155][675]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.19.06:163][675]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.19.06:163][675]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.19.06:184][675]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.19.06:185][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.19.06:185][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.19.06:185][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.19.06:185][675]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.19.06:200][675]LogInit: FAudioDevice initialized.
+[2021.03.25-10.19.06:207][675]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.19.06:209][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.19.06
+[2021.03.25-10.19.06:209][675]LogWorld: Bringing up level for play took: 0.001501
+[2021.03.25-10.19.06:209][675]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.03.25-10.19.06:228][675]PIE: Server logged in
+[2021.03.25-10.19.06:229][675]PIE: Play in editor total start time 0.146 seconds.
+[2021.03.25-10.19.06:239][675]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.19.09:490][ 65]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.09:490][ 65]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.09:490][ 65]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.09:490][ 65]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.09:490][ 65]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.09:490][ 65]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.15:523][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.19.15:523][784]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.19.15:523][784]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.19.15:524][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.19.15:528][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.19.15:530][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.19.15:545][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.19.15:566][784]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028D32C6B600), frame # 47784
+[2021.03.25-10.19.15:566][784]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DAEEBE400), frame # 47784
+[2021.03.25-10.19.15:567][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.03.25-10.19.15:597][785]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.03.25-10.19.24:795][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.19.24:901][860]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DM80D62660464000A81AB2419EEB2C17A9.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.19.24:911][860]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.19.24:911][860]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.19.25:920][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.19.26:697][ 57]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.19.26:722][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.19.26:722][ 57]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:19:26 PM)
+[2021.03.25-10.19.26:762][ 57]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.19.26:766][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004304s)
+[2021.03.25-10.19.26:767][ 57]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.19.26:767][ 57]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DB74CFE00), frame # 49057
+[2021.03.25-10.19.26:767][ 57]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DAED48A40), frame # 49057
+[2021.03.25-10.19.26:767][ 57]LogPlayLevel: PIE: World Init took: (0.001435s)
+[2021.03.25-10.19.26:768][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005989s)
+[2021.03.25-10.19.26:783][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.19.26:784][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.19.26:784][ 57]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.19.26:784][ 57]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.19.26:791][ 57]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.19.26:791][ 57]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.19.26:813][ 57]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.19.26:813][ 57]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.19.26:813][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.19.26:813][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.19.26:813][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.19.26:825][ 57]LogInit: FAudioDevice initialized.
+[2021.03.25-10.19.26:837][ 57]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.19.26:839][ 57]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.19.26
+[2021.03.25-10.19.26:839][ 57]LogWorld: Bringing up level for play took: 0.001502
+[2021.03.25-10.19.26:839][ 57]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.03.25-10.19.26:857][ 57]PIE: Server logged in
+[2021.03.25-10.19.26:858][ 57]PIE: Play in editor total start time 0.137 seconds.
+[2021.03.25-10.19.26:868][ 57]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2177 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.29:884][417]LogScript: Warning: Script Msg: Attempted to access index 2178 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.44:848][212]Cmd: RestartLevel
+[2021.03.25-10.19.44:856][213]LogNet: Browse: /Game/Maps/MapTestVincent?restart
+[2021.03.25-10.19.44:856][213]LogLoad: LoadMap: /Game/Maps/MapTestVincent
+[2021.03.25-10.19.44:856][213]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.19.44:856][213]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.19.44:856][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.19.44:910][213]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DAED48A40), frame # 51213
+[2021.03.25-10.19.44:910][213]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DB74CFE00), frame # 51213
+[2021.03.25-10.19.44:912][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.03.25-10.19.44:913][213]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.19.44:916][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003510s)
+[2021.03.25-10.19.44:918][213]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.19.44:918][213]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DB237BE00), frame # 51213
+[2021.03.25-10.19.44:918][213]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DA750D580), frame # 51213
+[2021.03.25-10.19.44:918][213]LogPlayLevel: PIE: World Init took: (0.001547s)
+[2021.03.25-10.19.44:918][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005229s)
+[2021.03.25-10.19.44:918][213]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.19.44:919][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.19.44
+[2021.03.25-10.19.44:920][213]LogWorld: Bringing up level for play took: 0.001026
+[2021.03.25-10.19.44:937][213]LogLoad: Took 0.081721 seconds to LoadMap(/Game/Maps/UEDPIE_0_MapTestVincent)
+[2021.03.25-10.19.44:939][213]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.19.48:352][622]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.48:352][622]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.48:352][622]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.48:353][622]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.48:353][622]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.19.54:713][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.19.54:713][382]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.19.54:713][382]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.19.54:713][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.19.54:722][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.19.54:724][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.19.54:756][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.19.54:757][382]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DA750D580), frame # 52382
+[2021.03.25-10.19.54:757][382]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DB237BE00), frame # 52382
+[2021.03.25-10.19.54:758][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.03.25-10.19.54:787][383]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.03.25-10.19.56:300][560]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (Breakable_DM)
+[2021.03.25-10.20.11:863][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.20.12:565][464]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.20.12:592][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.20.12:592][464]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:20:12 PM)
+[2021.03.25-10.20.12:621][464]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.20.12:625][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003997s)
+[2021.03.25-10.20.12:626][464]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.20.12:627][464]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DBD0B7E00), frame # 54464
+[2021.03.25-10.20.12:627][464]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DAD981E40), frame # 54464
+[2021.03.25-10.20.12:627][464]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2021.03.25-10.20.12:627][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005643s)
+[2021.03.25-10.20.12:643][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.25-10.20.12:644][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.20.12:644][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.20.12:644][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.20.12:644][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.20.12:644][464]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.20.12:644][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.20.12:644][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.20.12:644][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.20.12:645][464]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.20.12:645][464]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.20.12:651][464]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.20.12:651][464]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.20.12:673][464]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.20.12:673][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.20.12:673][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.20.12:673][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.20.12:673][464]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.20.12:687][464]LogInit: FAudioDevice initialized.
+[2021.03.25-10.20.12:694][464]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.20.12:696][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.20.12
+[2021.03.25-10.20.12:697][464]LogWorld: Bringing up level for play took: 0.001777
+[2021.03.25-10.20.12:697][464]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.03.25-10.20.12:716][464]PIE: Server logged in
+[2021.03.25-10.20.12:717][464]PIE: Play in editor total start time 0.127 seconds.
+[2021.03.25-10.20.12:728][464]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.20.16:956][971]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.16:956][971]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.16:956][971]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.16:956][971]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.16:956][971]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.16:956][971]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.16:957][971]LogScript: Warning: Script Msg: Attempted to access index 2177 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.16:957][971]LogScript: Warning: Script Msg: Attempted to access index 2178 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.20:323][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.20.20:323][370]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.20.20:324][370]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.20.20:324][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.20.20:333][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.20.20:334][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.20.20:350][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.20.20:367][370]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DAD981E40), frame # 55370
+[2021.03.25-10.20.20:367][370]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DBD0B7E00), frame # 55370
+[2021.03.25-10.20.20:368][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.03.25-10.20.20:396][371]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.03.25-10.20.22:050][566]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.20.22:074][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.20.22:074][566]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:20:22 PM)
+[2021.03.25-10.20.22:121][566]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.20.22:124][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003517s)
+[2021.03.25-10.20.22:126][566]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.20.22:126][566]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DBCD0FE00), frame # 55566
+[2021.03.25-10.20.22:126][566]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D9E2FCB80), frame # 55566
+[2021.03.25-10.20.22:126][566]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2021.03.25-10.20.22:126][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005186s)
+[2021.03.25-10.20.22:140][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.03.25-10.20.22:141][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.20.22:141][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.20.22:141][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.20.22:141][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.20.22:141][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.20.22:141][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.20.22:141][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.20.22:141][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.20.22:142][566]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.20.22:142][566]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.20.22:149][566]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.20.22:149][566]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.20.22:172][566]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.20.22:172][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.20.22:172][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.20.22:172][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.20.22:173][566]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.20.22:186][566]LogInit: FAudioDevice initialized.
+[2021.03.25-10.20.22:198][566]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.20.22:200][566]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.20.22
+[2021.03.25-10.20.22:200][566]LogWorld: Bringing up level for play took: 0.001731
+[2021.03.25-10.20.22:201][566]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.03.25-10.20.22:219][566]PIE: Server logged in
+[2021.03.25-10.20.22:220][566]PIE: Play in editor total start time 0.148 seconds.
+[2021.03.25-10.20.22:231][566]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.20.25:449][952]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.25:449][952]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.25:449][952]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.25:449][952]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.25:449][952]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.25:450][952]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.27:865][242]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.25-10.20.31:724][705]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.25-10.20.34:598][ 50]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.25-10.20.38:893][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.20.38:893][560]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.20.38:893][560]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.20.38:893][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.20.38:901][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.20.38:903][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.20.38:918][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.20.38:934][560]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028D9E2FCB80), frame # 57560
+[2021.03.25-10.20.38:934][560]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DBCD0FE00), frame # 57560
+[2021.03.25-10.20.38:935][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.03.25-10.20.38:963][561]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.03.25-10.20.43:329][ 80]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.20.43:354][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.20.43:354][ 80]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:20:43 PM)
+[2021.03.25-10.20.43:354][ 80]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.20.43:358][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003431s)
+[2021.03.25-10.20.43:359][ 80]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.20.43:359][ 80]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DBCBFBE00), frame # 58080
+[2021.03.25-10.20.43:359][ 80]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DA77C91C0), frame # 58080
+[2021.03.25-10.20.43:359][ 80]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2021.03.25-10.20.43:359][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.004864s)
+[2021.03.25-10.20.43:375][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.20.43:376][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.20.43:376][ 80]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.20.43:376][ 80]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.20.43:383][ 80]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.20.43:383][ 80]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.20.43:405][ 80]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.20.43:405][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.20.43:405][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.20.43:405][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.20.43:406][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.20.43:418][ 80]LogInit: FAudioDevice initialized.
+[2021.03.25-10.20.43:428][ 80]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.20.43:430][ 80]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.20.43
+[2021.03.25-10.20.43:430][ 80]LogWorld: Bringing up level for play took: 0.001358
+[2021.03.25-10.20.43:430][ 80]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.03.25-10.20.43:449][ 80]PIE: Server logged in
+[2021.03.25-10.20.43:450][ 80]PIE: Play in editor total start time 0.098 seconds.
+[2021.03.25-10.20.43:459][ 80]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.20.47:235][533]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.47:235][533]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.47:235][533]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.47:235][533]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.47:235][533]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.20.55:303][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.20.55:303][494]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.20.55:304][494]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.20.55:304][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.20.55:309][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.20.55:311][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.20.55:325][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.20.55:341][494]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DA77C91C0), frame # 59494
+[2021.03.25-10.20.55:341][494]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DBCBFBE00), frame # 59494
+[2021.03.25-10.20.55:342][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.03.25-10.20.55:376][495]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.03.25-10.21.05:480][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.21.52:145][580]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.03.25-10.21.52:189][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.03.25-10.21.52:223][580]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DM_Blueprint0B53D44F4998B59D2D4DBEA5B67B3430.tmp' to '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/VBluePrints/Actors/Breakable_DM_Blueprint.uasset'
+[2021.03.25-10.21.52:264][580]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VBluePrints/Actors/Breakable_DM_Blueprint.Breakable_DM_Blueprint
+[2021.03.25-10.21.52:470][580]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.03.25-10.21.53:443][580]AssetCheck: New page: Asset Save: Breakable_DM_Blueprint
+[2021.03.25-10.21.53:443][580]LogContentValidation: Display: Validating Blueprint /Game/VBluePrints/Actors/Breakable_DM_Blueprint.Breakable_DM_Blueprint
+[2021.03.25-10.22.00:180][164]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.25-10.22.08:546][ 26]BlueprintLog: New page: Compile Breakable_DM_Blueprint
+[2021.03.25-10.22.08:615][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.03.25-10.22.08:644][ 26]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.25-10.22.24:909][653]LogEditorViewport: Clicking on Actor (context menu): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.22.32:213][258]LogEditorViewport: Clicking on Actor (LMB): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.22.36:911][656]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2021.03.25-10.22.37:552][710]LogEditorViewport: Clicking on Actor (context menu): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.22.39:957][913]LogEditorViewport: Clicking on Actor (context menu): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.23.01:384][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.03.25-10.23.01:711][725]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2021.03.25-10.23.07:028][222]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2021.03.25-10.23.12:353][671]Cmd: DELETE
+[2021.03.25-10.23.12:353][671]Cmd: ACTOR DELETE
+[2021.03.25-10.23.12:368][671]LogEditorActor: Deleted Actor: Breakable_DM_Blueprint_C
+[2021.03.25-10.23.12:394][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.03.25-10.23.12:396][671]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2021.03.25-10.23.13:134][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.23.15:883][  0]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.03.25-10.23.17:327][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.03.25-10.23.17:720][180]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2021.03.25-10.23.23:167][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.23.24:807][938]LogEditorViewport: Clicking on Actor (LMB): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.23.26:952][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.03.25-10.23.28:013][295]Cmd: EDIT COPY
+[2021.03.25-10.23.28:280][326]Cmd: EDIT PASTE
+[2021.03.25-10.23.46:888][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.03.25-10.23.46:915][342]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/MapTestVincentE9EBE5F64C27501EAFB48A836AC189CD.tmp' to '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Maps/MapTestVincent.umap'
+[2021.03.25-10.23.47:001][342]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/MapTestVincent_BuiltData831ADFA344980ED7B34F62BA63D34D10.tmp' to '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/Maps/MapTestVincent_BuiltData.uasset'
+[2021.03.25-10.23.47:018][342]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.25-10.23.47:019][342]LogContentValidation: Display: Validating World /Game/Maps/MapTestVincent.MapTestVincent
+[2021.03.25-10.23.47:019][342]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MapTestVincent_BuiltData.MapTestVincent_BuiltData
+[2021.03.25-10.24.08:893][889]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube15)
+[2021.03.25-10.24.09:829][969]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2021.03.25-10.24.10:550][969]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.24.10:551][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.24.13:531][197]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube15)
+[2021.03.25-10.25.13:049][888]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Breakable.Breakable
+[2021.03.25-10.25.13:228][888]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.25.13:228][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.25.29:495][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2021.03.25-10.25.31:205][600]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube15)
+[2021.03.25-10.25.47:264][106]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube15)
+[2021.03.25-10.26.13:591][460]LogEditorViewport: Clicking on Actor (LMB): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.26.17:628][839]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.26.17:629][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.26.49:024][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.26.49:129][406]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DMF28DF11A42889775B952498DE84DD673.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.26.49:144][406]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.26.49:144][406]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.26.50:479][542]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.26.50:506][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.26.50:506][542]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:26:50 PM)
+[2021.03.25-10.26.50:506][542]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.26.50:510][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003461s)
+[2021.03.25-10.26.50:511][542]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.26.50:511][542]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028D43936200), frame # 91542
+[2021.03.25-10.26.50:511][542]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D43A90B80), frame # 91542
+[2021.03.25-10.26.50:511][542]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2021.03.25-10.26.50:511][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.004816s)
+[2021.03.25-10.26.50:567][542]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.03.25-10.26.50:576][542]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.26.50:576][542]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.26.50:576][542]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.26.50:576][542]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.26.50:576][542]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.26.50:576][542]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.26.50:576][542]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.26.50:576][542]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.26.50:576][542]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.26.50:577][542]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.26.50:583][542]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.26.50:583][542]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.26.50:606][542]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.26.50:607][542]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.26.50:607][542]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.26.50:607][542]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.26.50:607][542]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.26.50:619][542]LogInit: FAudioDevice initialized.
+[2021.03.25-10.26.50:630][542]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.26.50:632][542]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.26.50
+[2021.03.25-10.26.50:632][542]LogWorld: Bringing up level for play took: 0.001546
+[2021.03.25-10.26.50:632][542]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.03.25-10.26.50:651][542]PIE: Server logged in
+[2021.03.25-10.26.50:652][542]PIE: Play in editor total start time 0.149 seconds.
+[2021.03.25-10.26.50:663][542]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.26.53:395][864]Cmd: LevelEditor.ToggleImmersive
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2177 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.26.54:174][940]LogScript: Warning: Script Msg: Attempted to access index 2178 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.03:203][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.27.03:204][ 20]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.27.03:204][ 20]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.27.03:204][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.27.03:221][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.27.03:224][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.27.03:245][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.27.03:265][ 20]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028D43936200), frame # 93020
+[2021.03.25-10.27.03:265][ 20]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028D43A90B80), frame # 93020
+[2021.03.25-10.27.03:268][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.03.25-10.27.03:300][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.03.25-10.27.10:131][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.27.10:234][821]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DMAF0449B24F02702B0C0DFD824B071E49.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.27.10:245][821]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.27.10:246][821]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.27.11:199][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.27.12:327][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.27.12:353][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.27.12:353][ 64]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:27:12 PM)
+[2021.03.25-10.27.12:353][ 64]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.27.12:357][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003465s)
+[2021.03.25-10.27.12:358][ 64]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.27.12:358][ 64]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DF6771C00), frame # 94064
+[2021.03.25-10.27.12:358][ 64]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DB31DA700), frame # 94064
+[2021.03.25-10.27.12:358][ 64]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2021.03.25-10.27.12:358][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.004753s)
+[2021.03.25-10.27.12:382][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.03.25-10.27.12:385][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.27.12:385][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.27.12:385][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.27.12:385][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.27.12:385][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.27.12:386][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.27.12:386][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.27.12:386][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.27.12:386][ 64]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.27.12:386][ 64]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.27.12:392][ 64]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.27.12:392][ 64]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.27.12:414][ 64]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.27.12:414][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.27.12:414][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.27.12:414][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.27.12:414][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.27.12:426][ 64]LogInit: FAudioDevice initialized.
+[2021.03.25-10.27.12:432][ 64]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.27.12:434][ 64]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.27.12
+[2021.03.25-10.27.12:434][ 64]LogWorld: Bringing up level for play took: 0.001564
+[2021.03.25-10.27.12:434][ 64]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.03.25-10.27.12:454][ 64]PIE: Server logged in
+[2021.03.25-10.27.12:455][ 64]PIE: Play in editor total start time 0.104 seconds.
+[2021.03.25-10.27.12:467][ 64]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.27.16:175][509]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.16:175][509]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.16:175][509]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.16:175][509]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.16:175][509]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.21:064][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.27.21:064][ 91]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.27.21:064][ 91]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.27.21:064][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.27.21:070][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.27.21:074][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.27.21:096][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.27.21:113][ 91]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DB31DA700), frame # 95091
+[2021.03.25-10.27.21:113][ 91]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DF6771C00), frame # 95091
+[2021.03.25-10.27.21:116][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.03.25-10.27.21:155][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.03.25-10.27.22:946][302]LogEditorViewport: Clicking on Actor (LMB): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.27.34:783][694]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.27.34:810][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.27.34:811][694]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:27:34 PM)
+[2021.03.25-10.27.34:841][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.27.34:845][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003706s)
+[2021.03.25-10.27.34:846][694]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.27.34:846][694]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DB2DB7E00), frame # 96694
+[2021.03.25-10.27.34:846][694]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028E2394BB00), frame # 96694
+[2021.03.25-10.27.34:846][694]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2021.03.25-10.27.34:846][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005259s)
+[2021.03.25-10.27.34:869][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.27.34:873][694]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.27.34:873][694]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.27.34:873][694]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.27.34:879][694]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.27.34:879][694]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.27.34:900][694]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.27.34:901][694]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.27.34:901][694]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.27.34:901][694]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.27.34:901][694]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.27.34:913][694]LogInit: FAudioDevice initialized.
+[2021.03.25-10.27.34:920][694]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.27.34:922][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.27.34
+[2021.03.25-10.27.34:922][694]LogWorld: Bringing up level for play took: 0.001541
+[2021.03.25-10.27.34:922][694]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.03.25-10.27.34:941][694]PIE: Server logged in
+[2021.03.25-10.27.34:942][694]PIE: Play in editor total start time 0.136 seconds.
+[2021.03.25-10.27.34:954][694]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.27.38:153][ 78]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.38:153][ 78]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.38:153][ 78]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.38:153][ 78]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.38:153][ 78]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.27.49:463][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.27.49:463][431]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.27.49:463][431]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.27.49:463][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.27.49:475][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.27.49:478][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.27.49:500][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.27.49:517][431]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028E2394BB00), frame # 98431
+[2021.03.25-10.27.49:517][431]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DB2DB7E00), frame # 98431
+[2021.03.25-10.27.49:519][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.03.25-10.27.49:552][432]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.03.25-10.27.58:389][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.27.58:492][463]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DMF26B3A7F4A3B44308920A3A80D044745.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.27.58:506][463]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.27.58:506][463]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.27.58:944][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.27.59:595][588]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.27.59:620][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.27.59:620][588]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:27:59 PM)
+[2021.03.25-10.27.59:651][588]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.27.59:654][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003411s)
+[2021.03.25-10.27.59:655][588]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.27.59:655][588]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DEA7B5600), frame # 99588
+[2021.03.25-10.27.59:655][588]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DD51BFB00), frame # 99588
+[2021.03.25-10.27.59:656][588]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2021.03.25-10.27.59:656][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.004801s)
+[2021.03.25-10.27.59:679][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.03.25-10.27.59:683][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.27.59:683][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.27.59:683][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.27.59:683][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.27.59:683][588]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.27.59:683][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.27.59:683][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.27.59:683][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.27.59:684][588]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.27.59:684][588]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.27.59:690][588]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.27.59:690][588]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.27.59:711][588]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.27.59:711][588]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.27.59:711][588]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.27.59:711][588]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.27.59:711][588]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.27.59:723][588]LogInit: FAudioDevice initialized.
+[2021.03.25-10.27.59:734][588]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.27.59:736][588]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.27.59
+[2021.03.25-10.27.59:736][588]LogWorld: Bringing up level for play took: 0.001438
+[2021.03.25-10.27.59:736][588]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.03.25-10.27.59:754][588]PIE: Server logged in
+[2021.03.25-10.27.59:755][588]PIE: Play in editor total start time 0.137 seconds.
+[2021.03.25-10.27.59:766][588]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.28.03:588][ 46]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.03:588][ 46]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.03:588][ 46]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.03:588][ 46]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.03:588][ 46]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.03:588][ 46]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.05:193][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.28.05:193][234]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.28.05:193][234]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.28.05:194][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.28.05:205][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.28.05:208][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.28.05:245][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.28.05:246][234]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DD51BFB00), frame # 100234
+[2021.03.25-10.28.05:246][234]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DEA7B5600), frame # 100234
+[2021.03.25-10.28.05:249][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.03.25-10.28.05:287][235]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.03.25-10.28.24:840][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.28.24:940][529]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DMF5B02A8741F4C4E79FAF36A62AFA2415.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.28.24:954][529]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.28.24:954][529]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.28.25:533][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.28.26:378][692]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.28.26:403][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.28.26:403][692]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:28:26 PM)
+[2021.03.25-10.28.26:451][692]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.28.26:454][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003424s)
+[2021.03.25-10.28.26:455][692]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.28.26:455][692]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E21A3BE00), frame # 102692
+[2021.03.25-10.28.26:455][692]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DD519AD40), frame # 102692
+[2021.03.25-10.28.26:456][692]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2021.03.25-10.28.26:456][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.004815s)
+[2021.03.25-10.28.26:478][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.28.26:483][692]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.28.26:483][692]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.28.26:483][692]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.28.26:490][692]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.28.26:490][692]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.28.26:511][692]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.28.26:511][692]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.28.26:511][692]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.28.26:511][692]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.28.26:511][692]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.28.26:523][692]LogInit: FAudioDevice initialized.
+[2021.03.25-10.28.26:528][692]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.28.26:530][692]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.28.26
+[2021.03.25-10.28.26:530][692]LogWorld: Bringing up level for play took: 0.001382
+[2021.03.25-10.28.26:530][692]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.03.25-10.28.26:548][692]PIE: Server logged in
+[2021.03.25-10.28.26:549][692]PIE: Play in editor total start time 0.148 seconds.
+[2021.03.25-10.28.26:561][692]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.28.30:437][157]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.30:437][157]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.30:437][157]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.30:437][157]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.30:437][157]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.32:823][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.28.32:823][439]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.28.32:823][439]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.28.32:824][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.28.32:833][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.28.32:836][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.28.32:873][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.28.32:874][439]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DD519AD40), frame # 103439
+[2021.03.25-10.28.32:874][439]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E21A3BE00), frame # 103439
+[2021.03.25-10.28.32:877][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.03.25-10.28.32:908][440]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.03.25-10.28.38:972][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.28.39:076][128]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DMDB5B6E3E414B36CC9CFEBFB64925F510.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.28.39:100][128]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.28.39:100][128]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.28.41:022][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.28.41:675][425]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.28.41:700][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.28.41:700][425]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:28:41 PM)
+[2021.03.25-10.28.41:701][425]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.28.41:704][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003777s)
+[2021.03.25-10.28.41:705][425]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.28.41:705][425]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E22217E00), frame # 104425
+[2021.03.25-10.28.41:706][425]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DD4E3D800), frame # 104425
+[2021.03.25-10.28.41:706][425]LogPlayLevel: PIE: World Init took: (0.001326s)
+[2021.03.25-10.28.41:706][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.005261s)
+[2021.03.25-10.28.41:732][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.28.41:735][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.28.41:735][425]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.28.41:735][425]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.28.41:742][425]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.28.41:742][425]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.28.41:764][425]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.28.41:764][425]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.28.41:764][425]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.28.41:764][425]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.28.41:764][425]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.28.41:776][425]LogInit: FAudioDevice initialized.
+[2021.03.25-10.28.41:783][425]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.28.41:785][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.28.41
+[2021.03.25-10.28.41:785][425]LogWorld: Bringing up level for play took: 0.001371
+[2021.03.25-10.28.41:785][425]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.03.25-10.28.41:803][425]PIE: Server logged in
+[2021.03.25-10.28.41:804][425]PIE: Play in editor total start time 0.106 seconds.
+[2021.03.25-10.28.41:815][425]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.28.45:332][847]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.45:332][847]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.45:332][847]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.45:332][847]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.45:332][847]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.28.50:504][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.28.50:504][463]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.28.50:504][463]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.28.50:504][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.28.50:516][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.28.50:520][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.28.50:560][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.28.50:561][463]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DD4E3D800), frame # 105463
+[2021.03.25-10.28.50:561][463]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E22217E00), frame # 105463
+[2021.03.25-10.28.50:563][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.03.25-10.28.50:594][464]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.03.25-10.30.07:355][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Breakable_DM" FILE="../../../Engine/Content/BasicShapes/Breakable_DM.uasset" SILENT=true
+[2021.03.25-10.30.07:455][544]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/Breakable_DM6B8A93BE4D02CB69DEC6D5BCDA274EF7.tmp' to '../../../Engine/Content/BasicShapes/Breakable_DM.uasset'
+[2021.03.25-10.30.07:470][544]AssetCheck: New page: Asset Save: Breakable_DM
+[2021.03.25-10.30.07:470][544]LogContentValidation: Display: Validating DestructibleMesh /Engine/BasicShapes/Breakable_DM.Breakable_DM
+[2021.03.25-10.30.08:053][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.30.08:800][693]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-10.30.08:825][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-10.30.08:825][693]PIE: New page: PIE session: MapTestVincent (Mar 25, 2021, 12:30:08 PM)
+[2021.03.25-10.30.08:871][693]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.30.08:875][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003419s)
+[2021.03.25-10.30.08:876][693]LogAIModule: Creating AISystem for world MapTestVincent
+[2021.03.25-10.30.08:876][693]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E22A0FE00), frame # 114693
+[2021.03.25-10.30.08:876][693]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DABE67240), frame # 114693
+[2021.03.25-10.30.08:876][693]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2021.03.25-10.30.08:876][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapTestVincent.MapTestVincent to /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent (0.004740s)
+[2021.03.25-10.30.08:900][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-10.30.08:907][693]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-10.30.08:907][693]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-10.30.08:907][693]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-10.30.08:914][693]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-10.30.08:914][693]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-10.30.08:936][693]LogAudioMixer: Display: Using Audio Device Casque (High Definition Audio Device)
+[2021.03.25-10.30.08:936][693]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-10.30.08:936][693]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-10.30.08:936][693]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-10.30.08:937][693]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-10.30.08:949][693]LogInit: FAudioDevice initialized.
+[2021.03.25-10.30.08:956][693]LogLoad: Game class is 'VGameMode_C'
+[2021.03.25-10.30.08:958][693]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTestVincent.MapTestVincent up for play (max tick rate 0) at 2021.03.25-11.30.08
+[2021.03.25-10.30.08:958][693]LogWorld: Bringing up level for play took: 0.001365
+[2021.03.25-10.30.08:958][693]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.03.25-10.30.08:976][693]PIE: Server logged in
+[2021.03.25-10.30.08:977][693]PIE: Play in editor total start time 0.154 seconds.
+[2021.03.25-10.30.08:988][693]LogAudio: Warning: Detected orphaned looping sound 'youngSpecies_loop_Cue'.
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2171 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2172 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2173 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2174 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2175 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2176 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2177 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2178 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.12:592][123]LogScript: Warning: Script Msg: Attempted to access index 2179 from array 'GhostInfosReplay' of length 2171 in '/Game/VBluePrints/VGameMode.VGameMode_C'!
+[2021.03.25-10.30.17:443][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.30.17:443][700]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapTestVincent
+[2021.03.25-10.30.17:443][700]LogWorld: UWorld::CleanupWorld for MapTestVincent, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.30.17:444][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.30.17:450][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-10.30.17:455][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.30.17:498][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-10.30.17:499][700]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DABE67240), frame # 115700
+[2021.03.25-10.30.17:499][700]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E22A0FE00), frame # 115700
+[2021.03.25-10.30.17:502][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.03.25-10.30.17:534][701]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.03.25-10.31.30:590][873]Cmd: SELECT NONE
+[2021.03.25-10.31.34:907][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.25-10.31.36:142][533]Cmd: SELECT NONE
+[2021.03.25-10.31.43:438][384]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.31.43:439][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.31.45:576][622]LogEditorViewport: Clicking on Actor (LMB): Breakable_DM_Blueprint_C (Breakable_DM_Blueprint)
+[2021.03.25-10.31.58:772][140]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-10.31.58:772][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-10.31.59:222][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2021.03.25-10.32.14:118][664]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.25-10.32.15:870][664]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.25-10.32.23:216][302]LogSavePackage: Moving '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Saved/BreakAbleWallADE9487848BCA1CB591C3891417E77D7.tmp' to '../../../../../IIM/A2/Projets_Unreal/GrapplingProject/GrapplingProject/ProjetUnreal_Copy/Content/VBluePrints/Actors/BreakAbleWall.uasset'
+[2021.03.25-10.32.23:232][302]AssetCheck: New page: Asset Save: BreakAbleWall
+[2021.03.25-10.32.23:232][302]LogContentValidation: Display: Validating Blueprint /Game/VBluePrints/Actors/BreakAbleWall.BreakAbleWall
+[2021.03.25-10.32.25:527][495]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VBluePrints/Actors/BreakAbleWall.BreakAbleWall
+[2021.03.25-10.32.31:233][930]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.03.25-10.32.33:202][930]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.968 s
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: === Handled ensure: ===
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: 
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: Found circular redirect from /Game/VBluePrints/Actors/BreakAbleWall.BreakAbleWall_C to /Game/VBluePrints/Actors/BreakableWall.BreakableWall_C! Returning None instead
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: Stack: 
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa7714c5a3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76d3b7f0 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77072ad6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa7708b2ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76d6f747 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa724e7512 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77082e03 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76f70259 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76ed9576 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77031897 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77031df2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76edbc35 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76ed9b7c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76ed968e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77031897 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76fbc4f5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77031df2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76edbc35 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76ed9b7c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76fbc884 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76fbaeba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa76fba9cb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa60fd8f30 UE4Editor-Engine.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa60fd8a38 UE4Editor-Engine.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77010b82 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77037e7c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa77019ed9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5f634127 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5f634bac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:202][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5f671fe2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5f66e8fe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5feaa077 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5f9db9f0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5f9da2d5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa5f9ef2e0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa3e8a87b7 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa3e854816 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa3e8c1592 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa59d287ed UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa59d966e2 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa59de3cea UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa59cfe1fb UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa59cdfacf UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa749adf42 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa749976cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa74891f8f UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa7499dbe6 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa7499eff8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa748a99e4 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa746f061b UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa7475d561 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffa74750f16 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffaae5d7c25 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffaae5c5c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffaae5da619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffaae5c17d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007fface015c1d USER32.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007fface015612 USER32.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffaae5dbb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ff6c9ad68c4 UE4Editor.exe!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ff6c9aeba7c UE4Editor.exe!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ff6c9aebb5a UE4Editor.exe!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ff6c9afe31d UE4Editor.exe!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ff6c9b0145a UE4Editor.exe!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffacdca7c24 KERNEL32.DLL!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: [Callstack] 0x00007ffacea0d721 ntdll.dll!UnknownFunction []
+[2021.03.25-10.32.33:203][930]LogOutputDevice: Error: 
