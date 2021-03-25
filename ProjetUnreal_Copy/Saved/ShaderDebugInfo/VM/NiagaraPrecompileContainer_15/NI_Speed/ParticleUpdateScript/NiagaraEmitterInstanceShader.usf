@@ -390,81 +390,63 @@ cbuffer FNiagaraEmitterParameters
 
 cbuffer FNiagaraExternalParameters
 {
-	float3 Constants_Emitter_AddVelocity_Velocity;
-	float3 Constants_Emitter_AddVelocity_ScaleAddedVelocity;
-	float Constants_Emitter_SolveForcesAndVelocity_SpeedLimit;
-	float Constants_Emitter_SolveForcesAndVelocity_AccelerationLimit;
-	float Constants_Emitter_ScaleSpriteSizeBySpeed_VelocityThreshold;
-	float2 Constants_Emitter_ScaleSpriteSizeBySpeed_MinScaleFactor;
-	float2 Constants_Emitter_ScaleSpriteSizeBySpeed_MaxScaleFactor;
+	int Emitter_ExecutionState;
+	int System_ExecutionState;
 }
 
 struct FParamMap0_Transient
 {
 	float PhysicsDeltaTime;
-	float PhysicsDrag;
-	float3 PhysicsForce;
-	float2 SpriteSizeScaleFactor;
+	float PhysicsRotationalDrag;
+	float3 PhysicsRotationalForce;
 };
 
-struct FParamMap0_SolveForcesAndVelocity
+struct FParamMap0_System
 {
-	float AccelerationLimit;
+	int ExecutionState;
+};
+
+struct FParamMap0_SolveRotationalForcesAndVelocity
+{
 	float DeltaTime;
-	float3 Force;
-	float Mass;
-	float3 Position;
-	float3 PreviousVelocity;
-	float SpeedLimit;
-	float3 Velocity;
+	float4 MeshOrientation;
+	float RotationalInertia;
+	float3 RotationalVelocity;
 	bool WritetoIntrinsicProperties;
-};
-
-struct FParamMap0_ScaleSpriteSizeBySpeed
-{
-	float2 InitialSpriteSize;
-	float2 MaxScaleFactor;
-	float2 MinScaleFactor;
-	bool SampleScaleFactorByCurve;
-	float3 SourceVelocity;
-	float VelocityThreshold;
 };
 
 struct FParamMap0_ParticleState
 {
 	float DeltaTime;
+	bool LetInfinitelyLivedParticlesDieWhenEmitterDeactivates;
 	float Lifetime;
-};
-
-struct FParamMap0_Particles_Initial
-{
-	float2 SpriteSize;
+	bool LoopParticlesLifetime;
 };
 
 struct FParamMap0_Particles
 {
 	float Age;
 	float4 Color;
-	FParamMap0_Particles_Initial Initial;
 	float Lifetime;
 	float Mass;
 	float MaterialRandom;
+	float4 MeshOrientation;
 	float NormalizedAge;
 	float3 Position;
-	float3 PreviousVelocity;
+	float RotationalInertia;
+	float3 RotationalVelocity;
 	float3 Scale;
 	float SpriteRotation;
 	float2 SpriteSize;
 	int UniqueID;
-	float3 Velocity;
 };
 
-struct FParamMap0_OUTPUT_VAR_SolveForcesAndVelocity
+struct FParamMap0_OUTPUT_VAR_SolveRotationalForcesAndVelocity
 {
-	float IncomingPhysicsDrag;
-	float3 IncomingPhysicsForce;
-	float3 Position;
-	float3 Velocity;
+	float IncomingPhysicsRotationalDrag;
+	float3 IncomingPhysicsRotationalForce;
+	float4 MeshOrientation;
+	float3 RotationalVelocity;
 };
 
 struct FParamMap0_OUTPUT_VAR_ParticleState
@@ -475,25 +457,18 @@ struct FParamMap0_OUTPUT_VAR_ParticleState
 struct FParamMap0_OUTPUT_VAR
 {
 	FParamMap0_OUTPUT_VAR_ParticleState ParticleState;
-	FParamMap0_OUTPUT_VAR_SolveForcesAndVelocity SolveForcesAndVelocity;
+	FParamMap0_OUTPUT_VAR_SolveRotationalForcesAndVelocity SolveRotationalForcesAndVelocity;
 };
 
-struct FParamMap0_Local_SolveForcesAndVelocity
+struct FParamMap0_Local_SolveRotationalForcesAndVelocity
 {
 	float DeltaTime;
-	float Mass;
-	float3 PhysicsForce;
-};
-
-struct FParamMap0_Local_ScaleSpriteSizeBySpeed
-{
-	float NormalizedVelocityRange;
+	float3 ForceRotationsInRadians;
 };
 
 struct FParamMap0_Local
 {
-	FParamMap0_Local_ScaleSpriteSizeBySpeed ScaleSpriteSizeBySpeed;
-	FParamMap0_Local_SolveForcesAndVelocity SolveForcesAndVelocity;
+	FParamMap0_Local_SolveRotationalForcesAndVelocity SolveRotationalForcesAndVelocity;
 };
 
 struct FParamMap0_Engine_System
@@ -549,7 +524,7 @@ struct FParamMap0_Engine
 struct FParamMap0_Emitter
 {
 	float Age;
-	bool LocalSpace;
+	int ExecutionState;
 	int RandomSeed;
 };
 
@@ -558,48 +533,8 @@ struct FParamMap0_DataInstance
 	bool Alive;
 };
 
-struct FParamMap0_Constants_Emitter_SolveForcesAndVelocity
-{
-	float AccelerationLimit;
-	float SpeedLimit;
-};
-
-struct FParamMap0_Constants_Emitter_ScaleSpriteSizeBySpeed
-{
-	float2 MaxScaleFactor;
-	float2 MinScaleFactor;
-	float VelocityThreshold;
-};
-
-struct FParamMap0_Constants_Emitter_AddVelocity
-{
-	float3 ScaleAddedVelocity;
-	float3 Velocity;
-};
-
-struct FParamMap0_Constants_Emitter
-{
-	FParamMap0_Constants_Emitter_AddVelocity AddVelocity;
-	FParamMap0_Constants_Emitter_ScaleSpriteSizeBySpeed ScaleSpriteSizeBySpeed;
-	FParamMap0_Constants_Emitter_SolveForcesAndVelocity SolveForcesAndVelocity;
-};
-
-struct FParamMap0_Constants
-{
-	FParamMap0_Constants_Emitter Emitter;
-};
-
-struct FParamMap0_AddVelocity
-{
-	int CoordinateSpace;
-	float3 ScaleAddedVelocity;
-	float3 Velocity;
-};
-
 struct FParamMap0
 {
-	FParamMap0_AddVelocity AddVelocity;
-	FParamMap0_Constants Constants;
 	FParamMap0_DataInstance DataInstance;
 	FParamMap0_Emitter Emitter;
 	FParamMap0_Engine Engine;
@@ -607,8 +542,8 @@ struct FParamMap0
 	FParamMap0_OUTPUT_VAR OUTPUT_VAR;
 	FParamMap0_Particles Particles;
 	FParamMap0_ParticleState ParticleState;
-	FParamMap0_ScaleSpriteSizeBySpeed ScaleSpriteSizeBySpeed;
-	FParamMap0_SolveForcesAndVelocity SolveForcesAndVelocity;
+	FParamMap0_SolveRotationalForcesAndVelocity SolveRotationalForcesAndVelocity;
+	FParamMap0_System System;
 	FParamMap0_Transient Transient;
 };
 
@@ -619,270 +554,235 @@ struct FSimulationContext
 
 static float HackSpawnInterp = 1.0;
 void ParticleState_Emitter_Func_(inout FSimulationContext Context);
-void TransformBase_Func_(int In_SourceSpace, int In_DestinationSpace, float4x4 In_LocalToWorldTransform, float4x4 In_WorldToLocalTransform, bool In_bLocalSpace, out bool Out_bUseOriginal, out float4x4 Out_OutTransform, inout FSimulationContext Context);
-void AddVelocity_TransformVector_Emitter_Func_(float3 In_InVector, int In_SourceSpace, int In_DestinationSpace, bool In_ApplyScale, out float3 Out_OutVector, inout FSimulationContext Context);
-void AddVelocity_Emitter_Func_(inout FSimulationContext Context);
-void SolveForcesAndVelocity_Emitter_Func_(inout FSimulationContext Context);
 void DirectionAndLengthSafe_Func_(float3 In_V, float3 In_Fallback, float In_Threshold, float In_FallbackLength, out float3 Out_Direction, out float Out_Length, out bool Out_BelowThreshold, inout FSimulationContext Context);
-void SampleCurve_EmitterScaleFactorCurve(float In_X, out float Out_Value);
-void ScaleSpriteSizeBySpeed_Emitter_Func_(inout FSimulationContext Context);
+void AxisAngleToQuaternion_Func_(float4 In_AxisAngle, bool In_NormalizeAxis, out float4 Out_Quaternion, inout FSimulationContext Context);
+void CustomHlsl001624D816540ECD5F976902A85E139007C_Func_(float4 In_Quat1, float4 In_Quat2, out float4 Out_Result);
+void MultiplyQuaternion_Func_(float4 In_QuaternionA, float4 In_QuaternionB, out float4 Out_Quaternion, inout FSimulationContext Context);
+void ApplyRotationVector_Particle_NormalizeRotations_false_Func_(float3 In_RotationalVelocityVector, float In_DeltaTime, float4 In_ExistingOrientationQuat, out float4 Out_NewOrientationQuat, inout FSimulationContext Context);
+void SolveRotationalForcesAndVelocity_Emitter_Func_(inout FSimulationContext Context);
 float GetSpawnInterpolation();
 void ParticleState_Emitter_Func_(inout FSimulationContext Context)
 {
 	bool Result = NiagaraAll(Context.Map.Particles.Age <= Context.Map.Engine.DeltaTime);
 	Context.Map.OUTPUT_VAR.ParticleState.FirstFrame = Result;
-	float Result1 = Context.Map.Particles.Age + Context.Map.ParticleState.DeltaTime;
-	float Constant1 = 1e-05;
-	float Result2 = max(Context.Map.ParticleState.Lifetime, Constant1);
-	float Constant2 = 0.0001;
-	float Result3 = Result2 - Constant2;
-	bool Result4 = NiagaraAll(Result1 < Result3);
-	bool Constant3 = false;
+	int Constant3 = 0;
+	bool Result1 = NiagaraAll(Context.Map.Emitter.ExecutionState != Constant3);
+	int Constant4 = 0;
+	bool Result2 = NiagaraAll(Context.Map.System.ExecutionState != Constant4);
+	bool Result3 = Result1 || Result2;
+	bool Result4 = Context.Map.ParticleState.LetInfinitelyLivedParticlesDieWhenEmitterDeactivates && Result3;
+	bool Result5 = !Result4;
+	bool Result6 = Context.Map.ParticleState.LoopParticlesLifetime && Result5;
+	float Result7 = Context.Map.Particles.Age + Context.Map.ParticleState.DeltaTime;
+	float Constant5 = 1e-05;
+	float Result8 = max(Context.Map.ParticleState.Lifetime, Constant5);
+	float Result9 = ModuloPrecise(Result7, Result8);
+	float Age_IfResult;
+	if(Result6)
+	{
+	Age_IfResult = Result9;
+	}
+	else
+	{
+	Age_IfResult = Result7;
+	}
+	float Constant6 = 0.0001;
+	float Result10 = Result8 - Constant6;
+	bool Result11 = NiagaraAll(Age_IfResult > Result10);
+	bool Result12 = Result11 && Result4;
+	bool Constant7 = false;
 	bool bool_IfResult;
-	if(Result4)
+	if(Result12)
+	{
+	bool_IfResult = Constant7;
+	}
+	else
 	{
 	bool_IfResult = Context.Map.DataInstance.Alive;
 	}
-	else
-	{
-	bool_IfResult = Constant3;
-	}
-	float Result5 = Result1 / Result2;
+	float Result13 = Age_IfResult / Result8;
 	Context.Map.DataInstance.Alive = bool_IfResult;
-	Context.Map.Particles.Age = Result1;
-	Context.Map.Particles.NormalizedAge = Result5;
+	Context.Map.Particles.Age = Age_IfResult;
+	Context.Map.Particles.NormalizedAge = Result13;
 }
 
-void TransformBase_Func_(int In_SourceSpace, int In_DestinationSpace, float4x4 In_LocalToWorldTransform, float4x4 In_WorldToLocalTransform, bool In_bLocalSpace, out bool Out_bUseOriginal, out float4x4 Out_OutTransform, inout FSimulationContext Context)
+void DirectionAndLengthSafe_Func_(float3 In_V, float3 In_Fallback, float In_Threshold, float In_FallbackLength, out float3 Out_Direction, out float Out_Length, out bool Out_BelowThreshold, inout FSimulationContext Context)
 {
-	int Constant9 = 0;
-	bool Result7 = NiagaraAll(In_SourceSpace == Constant9);
-	int Constant10 = 0;
-	bool Result8 = NiagaraAll(In_DestinationSpace == Constant10);
-	bool Result9 = Result7 && Result8;
-	int Constant11 = 1;
-	bool Result10 = NiagaraAll(In_SourceSpace == Constant11);
-	int Constant12 = 1;
-	bool Result11 = NiagaraAll(In_DestinationSpace == Constant12);
-	bool Result12 = Result10 && Result11;
-	bool Result13 = Result9 || Result12;
-	int Constant13 = 2;
-	bool Result14 = NiagaraAll(In_SourceSpace == Constant13);
-	int Constant14 = 2;
-	bool Result15 = NiagaraAll(In_DestinationSpace == Constant14);
-	bool Result16 = Result14 && Result15;
-	bool Result17 = Result13 || Result16;
-	bool Result18 = Result7 && Result15;
-	bool Result19 = Result14 && Result8;
-	bool Result20 = Result18 || Result19;
-	bool Result21 = In_bLocalSpace && Result20;
-	bool Result22 = Result17 || Result21;
-	bool Result23 = !In_bLocalSpace;
-	bool Result24 = Result7 && Result11;
-	bool Result25 = Result10 && Result8;
-	bool Result26 = Result24 || Result25;
-	bool Result27 = Result23 && Result26;
-	bool Result28 = Result22 || Result27;
-	bool Result29 = In_bLocalSpace && Result24;
-	bool Result30 = Result14 && Result11;
-	bool Result31 = Result29 || Result30;
-	bool Result32 = Result23 && Result19;
-	bool Result33 = Result31 || Result32;
-	float4x4 Matrix_IfResult1;
-	if(Result33)
-	{
-	Matrix_IfResult1 = In_LocalToWorldTransform;
-	}
-	else
-	{
-	Matrix_IfResult1 = In_WorldToLocalTransform;
-	}
-	Out_bUseOriginal = Result28;
-	Out_OutTransform = Matrix_IfResult1;
-}
-
-void AddVelocity_TransformVector_Emitter_Func_(float3 In_InVector, int In_SourceSpace, int In_DestinationSpace, bool In_ApplyScale, out float3 Out_OutVector, inout FSimulationContext Context)
-{
-	bool Constant8 = false;
-	float4x4 Matrix_IfResult;
-	float4x4 Matrix001_IfResult;
-	if(In_ApplyScale)
-	{
-	Matrix_IfResult = Context.Map.Engine.Owner.SystemLocalToWorld;
-	Matrix001_IfResult = Context.Map.Engine.Owner.SystemWorldToLocal;
-	}
-	else
-	{
-	Matrix_IfResult = Context.Map.Engine.Owner.SystemLocalToWorldNoScale;
-	Matrix001_IfResult = Context.Map.Engine.Owner.SystemWorldToLocalNoScale;
-	}
-	bool TransformBase_Func_Output_bUseOriginal;
-	float4x4 TransformBase_Func_Output_OutTransform;
-	TransformBase_Func_(In_SourceSpace, In_DestinationSpace, Matrix_IfResult, Matrix001_IfResult, Constant8, TransformBase_Func_Output_bUseOriginal, TransformBase_Func_Output_OutTransform, Context);
-	float3 Result34 = mul(float4(In_InVector,0.0),TransformBase_Func_Output_OutTransform).xyz;
+	float Result23 = length(In_V);
+	bool Result24 = NiagaraAll(Result23 < In_Threshold);
+	float Result25 = length(In_Fallback);
 	float3 Vector_IfResult;
-	if(TransformBase_Func_Output_bUseOriginal)
+	float float_IfResult;
+	if(Result24)
 	{
-	Vector_IfResult = In_InVector;
+	Vector_IfResult = In_Fallback;
+	float_IfResult = In_FallbackLength;
 	}
 	else
 	{
-	Vector_IfResult = Result34;
+	Vector_IfResult = In_V;
+	float_IfResult = Result23;
 	}
-	Out_OutVector = Vector_IfResult;
-}
-
-void AddVelocity_Emitter_Func_(inout FSimulationContext Context)
-{
-	float3 Result6 = Context.Map.Constants.Emitter.AddVelocity.Velocity * Context.Map.Constants.Emitter.AddVelocity.ScaleAddedVelocity;
-	int Constant6 = 0;
-	bool Constant7 = false;
-	float3 AddVelocity_TransformVector_Emitter_Func_Output_OutVector;
-	AddVelocity_TransformVector_Emitter_Func_(Result6, Context.Map.AddVelocity.CoordinateSpace, Constant6, Constant7, AddVelocity_TransformVector_Emitter_Func_Output_OutVector, Context);
-	float3 Result35 = AddVelocity_TransformVector_Emitter_Func_Output_OutVector + Context.Map.Particles.Velocity;
-	Context.Map.Particles.Velocity = Result35;
-}
-
-void SolveForcesAndVelocity_Emitter_Func_(inout FSimulationContext Context)
-{
-	Context.Map.Local.SolveForcesAndVelocity.DeltaTime = Context.Map.SolveForcesAndVelocity.DeltaTime;
-	Context.Map.Local.SolveForcesAndVelocity.PhysicsForce = Context.Map.SolveForcesAndVelocity.Force;
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.IncomingPhysicsForce = Context.Map.SolveForcesAndVelocity.Force;
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Context.Map.SolveForcesAndVelocity.Velocity;
-	Context.Map.Local.SolveForcesAndVelocity.Mass = Context.Map.SolveForcesAndVelocity.Mass;
-	float Constant23 = 0.0001;
-	float Result36 = max(Context.Map.Local.SolveForcesAndVelocity.Mass, Constant23);
-	float Result37 = Reciprocal(Result36);
-	float3 Result38 = Result37 * Context.Map.Local.SolveForcesAndVelocity.PhysicsForce;
-	Context.Map.Local.SolveForcesAndVelocity.PhysicsForce = Result38;
-	float3 Result39 = Context.Map.Local.SolveForcesAndVelocity.PhysicsForce * Context.Map.Local.SolveForcesAndVelocity.DeltaTime + Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
-	float Constant24 = 0;
-	float Result40 = max(Context.Map.Transient.PhysicsDrag, Constant24);
-	float Result41 = Context.Map.Local.SolveForcesAndVelocity.DeltaTime * Result40;
-	float Constant25 = 1;
-	float Result42 = Result41 + Constant25;
-	float3 Result43 = Result39 / Result42;
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Result43;
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.IncomingPhysicsDrag = Context.Map.Transient.PhysicsDrag;
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
-	float3 Result44 = Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity * Context.Map.Local.SolveForcesAndVelocity.DeltaTime + Context.Map.SolveForcesAndVelocity.Position;
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Position = Result44;
-	float3 Position_IfResult;
-	float3 Velocity_IfResult;
-	float3 PreviousVelocity_IfResult;
-	if(Context.Map.SolveForcesAndVelocity.WritetoIntrinsicProperties)
+	float3 Result26 = Vector_IfResult / float_IfResult;
+	float3 Vector_IfResult1;
+	float float_IfResult1;
+	if(Result24)
 	{
-	Position_IfResult = Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Position;
-	Velocity_IfResult = Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
-	PreviousVelocity_IfResult = Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
+	Vector_IfResult1 = In_Fallback;
+	float_IfResult1 = Result25;
 	}
 	else
 	{
-	Position_IfResult = Context.Map.SolveForcesAndVelocity.Position;
-	Velocity_IfResult = Context.Map.SolveForcesAndVelocity.Velocity;
-	PreviousVelocity_IfResult = Context.Map.SolveForcesAndVelocity.PreviousVelocity;
+	Vector_IfResult1 = Result26;
+	float_IfResult1 = float_IfResult;
 	}
-	Context.Map.Particles.Position = Position_IfResult;
-	Context.Map.Particles.Velocity = Velocity_IfResult;
-	Context.Map.Particles.PreviousVelocity = PreviousVelocity_IfResult;
+	Out_Direction = Vector_IfResult1;
+	Out_Length = float_IfResult1;
+	Out_BelowThreshold = Result24;
+}
+
+void AxisAngleToQuaternion_Func_(float4 In_AxisAngle, bool In_NormalizeAxis, out float4 Out_Quaternion, inout FSimulationContext Context)
+{
+	float3 VECTOR_VAR;
+	float NiagaraFloat;
+	VECTOR_VAR.x = In_AxisAngle.x;
+	VECTOR_VAR.y = In_AxisAngle.y;
+	VECTOR_VAR.z = In_AxisAngle.z;
+	NiagaraFloat = In_AxisAngle.w;
+	float3 Result28 = normalize(VECTOR_VAR);
+	float3 Vector_IfResult2;
+	if(In_NormalizeAxis)
+	{
+	Vector_IfResult2 = Result28;
+	}
+	else
+	{
+	Vector_IfResult2 = VECTOR_VAR;
+	}
+	float Constant25 = 2;
+	float Result29 = NiagaraFloat / Constant25;
+	float Result30 = sin(Result29);
+	float3 Result31 = Vector_IfResult2 * Result30;
+	float Result32 = cos(Result29);
+	float4 Output3;
+	Output3.x = Result31.x;
+	Output3.y = Result31.y;
+	Output3.z = Result31.z;
+	Output3.w = Result32;
+	Out_Quaternion = Output3;
+}
+
+void CustomHlsl001624D816540ECD5F976902A85E139007C_Func_(float4 In_Quat1, float4 In_Quat2, out float4 Out_Result)
+{
+
+float4 SIGN_MASK0 = float4( 1.f, -1.f, 1.f, -1.f );
+	float4 SIGN_MASK1 = float4( 1.f, 1.f, -1.f, -1.f );
+	float4 SIGN_MASK2 = float4( -1.f, 1.f, 1.f, -1.f );
+	Out_Result = (In_Quat1.wwww * In_Quat2);
+	Out_Result = ((In_Quat1.xxxx * In_Quat2.wzyx) * SIGN_MASK0) + Out_Result;
+	Out_Result = ((In_Quat1.yyyy * In_Quat2.zwxy)* SIGN_MASK1) + Out_Result;
+	Out_Result = ((In_Quat1.zzzz * In_Quat2.yxwz)* SIGN_MASK2) + Out_Result;
+}
+
+void MultiplyQuaternion_Func_(float4 In_QuaternionA, float4 In_QuaternionB, out float4 Out_Quaternion, inout FSimulationContext Context)
+{
+	float4 CustomHlsl001624D816540ECD5F976902A85E139007C_Func_Output_Result;
+	CustomHlsl001624D816540ECD5F976902A85E139007C_Func_(In_QuaternionA, In_QuaternionB, CustomHlsl001624D816540ECD5F976902A85E139007C_Func_Output_Result);
+	Out_Quaternion = CustomHlsl001624D816540ECD5F976902A85E139007C_Func_Output_Result;
+}
+
+void ApplyRotationVector_Particle_NormalizeRotations_false_Func_(float3 In_RotationalVelocityVector, float In_DeltaTime, float4 In_ExistingOrientationQuat, out float4 Out_NewOrientationQuat, inout FSimulationContext Context)
+{
+	float3 Result22 = In_RotationalVelocityVector * In_DeltaTime;
+	float3 Constant18 = float3(0,0,0);
+	float Constant19 = 1e-05;
+	float Constant20 = 1;
+	float3 DirectionAndLengthSafe_Func_Output_Direction;
+	float DirectionAndLengthSafe_Func_Output_Length;
+	bool DirectionAndLengthSafe_Func_Output_BelowThreshold;
+	DirectionAndLengthSafe_Func_(Result22, Constant18, Constant19, Constant20, DirectionAndLengthSafe_Func_Output_Direction, DirectionAndLengthSafe_Func_Output_Length, DirectionAndLengthSafe_Func_Output_BelowThreshold, Context);
+	float Constant21 = -1;
+	float Constant22 = -1;
+	float Constant23 = 1;
+	float3 Output1;
+	Output1.x = Constant21;
+	Output1.y = Constant22;
+	Output1.z = Constant23;
+	float3 Result27 = DirectionAndLengthSafe_Func_Output_Direction * Output1;
+	float4 Vector4;
+	Vector4.x = Result27.x;
+	Vector4.y = Result27.y;
+	Vector4.z = Result27.z;
+	Vector4.w = DirectionAndLengthSafe_Func_Output_Length;
+	bool Constant24 = true;
+	float4 AxisAngleToQuaternion_Func_Output_Quaternion;
+	AxisAngleToQuaternion_Func_(Vector4, Constant24, AxisAngleToQuaternion_Func_Output_Quaternion, Context);
+	float4 MultiplyQuaternion_Func_Output_Quaternion;
+	MultiplyQuaternion_Func_(AxisAngleToQuaternion_Func_Output_Quaternion, In_ExistingOrientationQuat, MultiplyQuaternion_Func_Output_Quaternion, Context);
+	float4 Quat_IfResult;
+	if(DirectionAndLengthSafe_Func_Output_BelowThreshold)
+	{
+	Quat_IfResult = In_ExistingOrientationQuat;
+	}
+	else
+	{
+	Quat_IfResult = MultiplyQuaternion_Func_Output_Quaternion;
+	}
+	Out_NewOrientationQuat = Quat_IfResult;
+}
+
+void SolveRotationalForcesAndVelocity_Emitter_Func_(inout FSimulationContext Context)
+{
+	Context.Map.Local.SolveRotationalForcesAndVelocity.DeltaTime = Context.Map.SolveRotationalForcesAndVelocity.DeltaTime;
+	float Constant15 = 1e-05;
+	float Result14 = max(Context.Map.SolveRotationalForcesAndVelocity.RotationalInertia, Constant15);
+	float3 Result15 = Context.Map.Transient.PhysicsRotationalForce / Result14;
+	float3 Result16 = Result15 * Context.Map.Local.SolveRotationalForcesAndVelocity.DeltaTime;
+	Context.Map.Local.SolveRotationalForcesAndVelocity.ForceRotationsInRadians = Result16;
+	Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.IncomingPhysicsRotationalForce = Context.Map.Transient.PhysicsRotationalForce;
+	float3 Result17 = Context.Map.SolveRotationalForcesAndVelocity.RotationalVelocity + Context.Map.Local.SolveRotationalForcesAndVelocity.ForceRotationsInRadians;
+	Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.RotationalVelocity = Result17;
+	float Constant16 = 0;
+	float Result18 = max(Context.Map.Transient.PhysicsRotationalDrag, Constant16);
+	float Result19 = Result18 * Context.Map.Local.SolveRotationalForcesAndVelocity.DeltaTime;
+	float Constant17 = 1;
+	float Result20 = Result19 + Constant17;
+	float3 Result21 = Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.RotationalVelocity / Result20;
+	Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.RotationalVelocity = Result21;
+	Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.IncomingPhysicsRotationalDrag = Context.Map.Transient.PhysicsRotationalDrag;
+	float4 ApplyRotationVector_Particle_NormalizeRotations_false_Func_Output_NewOrientationQuat;
+	ApplyRotationVector_Particle_NormalizeRotations_false_Func_(Context.Map.SolveRotationalForcesAndVelocity.RotationalVelocity, Context.Map.Local.SolveRotationalForcesAndVelocity.DeltaTime, Context.Map.SolveRotationalForcesAndVelocity.MeshOrientation, ApplyRotationVector_Particle_NormalizeRotations_false_Func_Output_NewOrientationQuat, Context);
+	Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.MeshOrientation = ApplyRotationVector_Particle_NormalizeRotations_false_Func_Output_NewOrientationQuat;
+	float4 MeshOrientation_IfResult;
+	float3 AngularVelocity_IfResult;
+	if(Context.Map.SolveRotationalForcesAndVelocity.WritetoIntrinsicProperties)
+	{
+	MeshOrientation_IfResult = Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.MeshOrientation;
+	AngularVelocity_IfResult = Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.RotationalVelocity;
+	}
+	else
+	{
+	MeshOrientation_IfResult = Context.Map.SolveRotationalForcesAndVelocity.MeshOrientation;
+	AngularVelocity_IfResult = Context.Map.SolveRotationalForcesAndVelocity.RotationalVelocity;
+	}
+	Context.Map.Particles.MeshOrientation = MeshOrientation_IfResult;
+	Context.Map.Particles.RotationalVelocity = AngularVelocity_IfResult;
 	float3 Constant26 = float3(0,0,0);
 	float Constant27 = 0;
 	float3 ForceVector_IfResult;
 	float Drag_IfResult;
-	if(Context.Map.SolveForcesAndVelocity.WritetoIntrinsicProperties)
+	if(Context.Map.SolveRotationalForcesAndVelocity.WritetoIntrinsicProperties)
 	{
 	ForceVector_IfResult = Constant26;
 	Drag_IfResult = Constant27;
 	}
 	else
 	{
-	ForceVector_IfResult = Context.Map.Transient.PhysicsForce;
-	Drag_IfResult = Context.Map.Transient.PhysicsDrag;
+	ForceVector_IfResult = Context.Map.Transient.PhysicsRotationalForce;
+	Drag_IfResult = Context.Map.Transient.PhysicsRotationalDrag;
 	}
-	Context.Map.Transient.PhysicsForce = ForceVector_IfResult;
-	Context.Map.Transient.PhysicsDrag = Drag_IfResult;
-}
-
-void DirectionAndLengthSafe_Func_(float3 In_V, float3 In_Fallback, float In_Threshold, float In_FallbackLength, out float3 Out_Direction, out float Out_Length, out bool Out_BelowThreshold, inout FSimulationContext Context)
-{
-	float Result45 = length(In_V);
-	bool Result46 = NiagaraAll(Result45 < In_Threshold);
-	float Result47 = length(In_Fallback);
-	float3 Vector_IfResult1;
-	float float_IfResult;
-	if(Result46)
-	{
-	Vector_IfResult1 = In_Fallback;
-	float_IfResult = In_FallbackLength;
-	}
-	else
-	{
-	Vector_IfResult1 = In_V;
-	float_IfResult = Result45;
-	}
-	float3 Result48 = Vector_IfResult1 / float_IfResult;
-	float3 Vector_IfResult2;
-	float float_IfResult1;
-	if(Result46)
-	{
-	Vector_IfResult2 = In_Fallback;
-	float_IfResult1 = Result47;
-	}
-	else
-	{
-	Vector_IfResult2 = Result48;
-	float_IfResult1 = float_IfResult;
-	}
-	Out_Direction = Vector_IfResult2;
-	Out_Length = float_IfResult1;
-	Out_BelowThreshold = Result46;
-}
-
-void ScaleSpriteSizeBySpeed_Emitter_Func_(inout FSimulationContext Context)
-{
-	float3 Constant31 = float3(0,0,1);
-	float Constant32 = 1e-05;
-	float Constant33 = 1;
-	float3 DirectionAndLengthSafe_Func_Output_Direction;
-	float DirectionAndLengthSafe_Func_Output_Length;
-	bool DirectionAndLengthSafe_Func_Output_BelowThreshold;
-	DirectionAndLengthSafe_Func_(Context.Map.ScaleSpriteSizeBySpeed.SourceVelocity, Constant31, Constant32, Constant33, DirectionAndLengthSafe_Func_Output_Direction, DirectionAndLengthSafe_Func_Output_Length, DirectionAndLengthSafe_Func_Output_BelowThreshold, Context);
-	float Constant34 = 0;
-	float float_IfResult2;
-	if(DirectionAndLengthSafe_Func_Output_BelowThreshold)
-	{
-	float_IfResult2 = Constant34;
-	}
-	else
-	{
-	float_IfResult2 = DirectionAndLengthSafe_Func_Output_Length;
-	}
-	float Constant35 = 0.0001;
-	float Constant36 = 0.0001;
-	float Result49 = max(Context.Map.Constants.Emitter.ScaleSpriteSizeBySpeed.VelocityThreshold, Constant36);
-	float Result50 = clamp(float_IfResult2,Constant35,Result49);
-	float Result51 = Result50 / Result49;
-	Context.Map.Local.ScaleSpriteSizeBySpeed.NormalizedVelocityRange = Result51;
-	float SampleCurve_EmitterScaleFactorCurveOutput_Value;
-	SampleCurve_EmitterScaleFactorCurve(Context.Map.Local.ScaleSpriteSizeBySpeed.NormalizedVelocityRange, SampleCurve_EmitterScaleFactorCurveOutput_Value);
-	float float_IfResult3;
-	if(Context.Map.ScaleSpriteSizeBySpeed.SampleScaleFactorByCurve)
-	{
-	float_IfResult3 = SampleCurve_EmitterScaleFactorCurveOutput_Value;
-	}
-	else
-	{
-	float_IfResult3 = Context.Map.Local.ScaleSpriteSizeBySpeed.NormalizedVelocityRange;
-	}
-	float Constant37 = 0;
-	float Constant38 = 1;
-	float Result52 = clamp(float_IfResult3,Constant37,Constant38);
-	float2 Result53 = lerp(Context.Map.Constants.Emitter.ScaleSpriteSizeBySpeed.MinScaleFactor,Context.Map.Constants.Emitter.ScaleSpriteSizeBySpeed.MaxScaleFactor,Result52);
-	float2 Result54 = Result53 * Context.Map.Transient.SpriteSizeScaleFactor;
-	float2 Result55 = Result54 * Context.Map.ScaleSpriteSizeBySpeed.InitialSpriteSize;
-	Context.Map.Transient.SpriteSizeScaleFactor = Result54;
-	Context.Map.Particles.SpriteSize = Result55;
+	Context.Map.Transient.PhysicsRotationalForce = ForceVector_IfResult;
+	Context.Map.Transient.PhysicsRotationalDrag = Drag_IfResult;
 }
 
 float GetSpawnInterpolation()
@@ -905,59 +805,42 @@ void Simulate(inout FSimulationContext Context)
 
 	bool Constant = true;
 	Context.Map.DataInstance.Alive = Constant;
+	bool Constant1 = false;
+	Context.Map.ParticleState.LoopParticlesLifetime = Constant1;
 	Context.Map.ParticleState.DeltaTime = Context.Map.Engine.DeltaTime;
 	Context.Map.ParticleState.Lifetime = Context.Map.Particles.Lifetime;
+	bool Constant2 = false;
+	Context.Map.ParticleState.LetInfinitelyLivedParticlesDieWhenEmitterDeactivates = Constant2;
 	EnterStatScope(1 );
 	ParticleState_Emitter_Func_(Context);
 	ExitStatScope( );
-	int Constant4 = 2;
-	Context.Map.AddVelocity.CoordinateSpace = Constant4;
-	bool Constant5 = false;
-	EnterStatScope(2 );
-	AddVelocity_Emitter_Func_(Context);
-	ExitStatScope( );
 	Context.Map.Transient.PhysicsDeltaTime = Context.Map.Engine.DeltaTime;
-	Context.Map.SolveForcesAndVelocity.DeltaTime = Context.Map.Transient.PhysicsDeltaTime;
-	float Constant15 = (0.0);
-	Context.Map.Local.SolveForcesAndVelocity.DeltaTime = Constant15;
-	float3 Constant16 = float3(0,0,0);
-	Context.Map.Transient.PhysicsForce = Constant16;
-	Context.Map.SolveForcesAndVelocity.Force = Context.Map.Transient.PhysicsForce;
-	Context.Map.SolveForcesAndVelocity.Velocity = Context.Map.Particles.Velocity;
-	Context.Map.SolveForcesAndVelocity.Mass = Context.Map.Particles.Mass;
-	float3 Constant17 = float3(0.0, 0.0, 0.0);
-	Context.Map.Local.SolveForcesAndVelocity.PhysicsForce = Constant17;
-	float3 Constant18 = float3(0.0, 0.0, 0.0);
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Constant18;
-	float Constant19 = (0.0);
-	Context.Map.Local.SolveForcesAndVelocity.Mass = Constant19;
-	float Constant20 = 0;
-	Context.Map.Transient.PhysicsDrag = Constant20;
-	Context.Map.SolveForcesAndVelocity.PreviousVelocity = Context.Map.Particles.PreviousVelocity;
-	Context.Map.SolveForcesAndVelocity.Position = Context.Map.Particles.Position;
-	float3 Constant21 = float3(0.0, 0.0, 0.0);
-	Context.Map.OUTPUT_VAR.SolveForcesAndVelocity.Position = Constant21;
-	bool Constant22 = true;
-	Context.Map.SolveForcesAndVelocity.WritetoIntrinsicProperties = Constant22;
-	EnterStatScope(3 );
-	SolveForcesAndVelocity_Emitter_Func_(Context);
-	ExitStatScope( );
-	Context.Map.ScaleSpriteSizeBySpeed.SourceVelocity = Context.Map.Particles.Velocity;
-	float Constant28 = (0.0);
-	Context.Map.Local.ScaleSpriteSizeBySpeed.NormalizedVelocityRange = Constant28;
-	float2 Constant29 = float2(1,1);
-	Context.Map.Transient.SpriteSizeScaleFactor = Constant29;
-	Context.Map.ScaleSpriteSizeBySpeed.InitialSpriteSize = Context.Map.Particles.Initial.SpriteSize;
-	bool Constant30 = false;
-	Context.Map.ScaleSpriteSizeBySpeed.SampleScaleFactorByCurve = Constant30;
-	EnterStatScope(4 );
-	ScaleSpriteSizeBySpeed_Emitter_Func_(Context);
+	Context.Map.SolveRotationalForcesAndVelocity.DeltaTime = Context.Map.Transient.PhysicsDeltaTime;
+	float Constant8 = (0.0);
+	Context.Map.Local.SolveRotationalForcesAndVelocity.DeltaTime = Constant8;
+	float3 Constant9 = float3(0,0,0);
+	Context.Map.Transient.PhysicsRotationalForce = Constant9;
+	Context.Map.SolveRotationalForcesAndVelocity.RotationalInertia = Context.Map.Particles.RotationalInertia;
+	float3 Constant10 = float3(0.0, 0.0, 0.0);
+	Context.Map.Local.SolveRotationalForcesAndVelocity.ForceRotationsInRadians = Constant10;
+	Context.Map.SolveRotationalForcesAndVelocity.RotationalVelocity = Context.Map.Particles.RotationalVelocity;
+	float3 Constant11 = float3(0.0, 0.0, 0.0);
+	Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.RotationalVelocity = Constant11;
+	float Constant12 = 0;
+	Context.Map.Transient.PhysicsRotationalDrag = Constant12;
+	Context.Map.SolveRotationalForcesAndVelocity.MeshOrientation = Context.Map.Particles.MeshOrientation;
+	float4 Constant13 = float4(0.0, 0.0, 0.0, 1.0);
+	Context.Map.OUTPUT_VAR.SolveRotationalForcesAndVelocity.MeshOrientation = Constant13;
+	bool Constant14 = true;
+	Context.Map.SolveRotationalForcesAndVelocity.WritetoIntrinsicProperties = Constant14;
+	EnterStatScope(2 );
+	SolveRotationalForcesAndVelocity_Emitter_Func_(Context);
 	ExitStatScope( );
 	ExitStatScope( );
 }
 void SimulateMain()
 {
-EnterStatScope(5 );
+EnterStatScope(3 );
 
 	FSimulationContext Context = (FSimulationContext)0;
 	Context.Map.Particles.Age = InputDataFloat(0, 0);
@@ -965,41 +848,31 @@ EnterStatScope(5 );
 	Context.Map.Particles.Color.g = InputDataFloat(0, 2);
 	Context.Map.Particles.Color.b = InputDataFloat(0, 3);
 	Context.Map.Particles.Color.a = InputDataFloat(0, 4);
-	Context.Map.Particles.Initial.SpriteSize.x = InputDataFloat(0, 5);
-	Context.Map.Particles.Initial.SpriteSize.y = InputDataFloat(0, 6);
-	Context.Map.Particles.Lifetime = InputDataFloat(0, 7);
-	Context.Map.Particles.Mass = InputDataFloat(0, 8);
-	Context.Map.Particles.MaterialRandom = InputDataFloat(0, 9);
-	Context.Map.Particles.NormalizedAge = InputDataFloat(0, 10);
-	Context.Map.Particles.Position.x = InputDataFloat(0, 11);
-	Context.Map.Particles.Position.y = InputDataFloat(0, 12);
-	Context.Map.Particles.Position.z = InputDataFloat(0, 13);
-	Context.Map.Particles.PreviousVelocity.x = InputDataFloat(0, 14);
-	Context.Map.Particles.PreviousVelocity.y = InputDataFloat(0, 15);
-	Context.Map.Particles.PreviousVelocity.z = InputDataFloat(0, 16);
-	Context.Map.Particles.Scale.x = InputDataFloat(0, 17);
-	Context.Map.Particles.Scale.y = InputDataFloat(0, 18);
-	Context.Map.Particles.Scale.z = InputDataFloat(0, 19);
-	Context.Map.Particles.SpriteRotation = InputDataFloat(0, 20);
-	Context.Map.Particles.SpriteSize.x = InputDataFloat(0, 21);
-	Context.Map.Particles.SpriteSize.y = InputDataFloat(0, 22);
-	Context.Map.Particles.UniqueID = InputDataInt(0, 23);
-	Context.Map.Particles.Velocity.x = InputDataFloat(0, 24);
-	Context.Map.Particles.Velocity.y = InputDataFloat(0, 25);
-	Context.Map.Particles.Velocity.z = InputDataFloat(0, 26);
+	Context.Map.Particles.Lifetime = InputDataFloat(0, 5);
+	Context.Map.Particles.Mass = InputDataFloat(0, 6);
+	Context.Map.Particles.MaterialRandom = InputDataFloat(0, 7);
+	Context.Map.Particles.MeshOrientation.x = InputDataFloat(0, 8);
+	Context.Map.Particles.MeshOrientation.y = InputDataFloat(0, 9);
+	Context.Map.Particles.MeshOrientation.z = InputDataFloat(0, 10);
+	Context.Map.Particles.MeshOrientation.w = InputDataFloat(0, 11);
+	Context.Map.Particles.NormalizedAge = InputDataFloat(0, 12);
+	Context.Map.Particles.Position.x = InputDataFloat(0, 13);
+	Context.Map.Particles.Position.y = InputDataFloat(0, 14);
+	Context.Map.Particles.Position.z = InputDataFloat(0, 15);
+	Context.Map.Particles.RotationalInertia = InputDataFloat(0, 16);
+	Context.Map.Particles.RotationalVelocity.x = InputDataFloat(0, 17);
+	Context.Map.Particles.RotationalVelocity.y = InputDataFloat(0, 18);
+	Context.Map.Particles.RotationalVelocity.z = InputDataFloat(0, 19);
+	Context.Map.Particles.Scale.x = InputDataFloat(0, 20);
+	Context.Map.Particles.Scale.y = InputDataFloat(0, 21);
+	Context.Map.Particles.Scale.z = InputDataFloat(0, 22);
+	Context.Map.Particles.SpriteRotation = InputDataFloat(0, 23);
+	Context.Map.Particles.SpriteSize.x = InputDataFloat(0, 24);
+	Context.Map.Particles.SpriteSize.y = InputDataFloat(0, 25);
+	Context.Map.Particles.UniqueID = InputDataInt(0, 26);
 	Context.Map.Engine.DeltaTime = Engine_DeltaTime;
-	Context.Map.Constants.Emitter.AddVelocity.Velocity = Constants_Emitter_AddVelocity_Velocity;
-	Context.Map.Constants.Emitter.AddVelocity.ScaleAddedVelocity = Constants_Emitter_AddVelocity_ScaleAddedVelocity;
-	Context.Map.Engine.Owner.SystemLocalToWorld = Engine_Owner_SystemLocalToWorld;
-	Context.Map.Engine.Owner.SystemWorldToLocal = Engine_Owner_SystemWorldToLocal;
-	Context.Map.Engine.Owner.SystemLocalToWorldNoScale = Engine_Owner_SystemLocalToWorldNoScale;
-	Context.Map.Engine.Owner.SystemWorldToLocalNoScale = Engine_Owner_SystemWorldToLocalNoScale;
-	Context.Map.Constants.Emitter.SolveForcesAndVelocity.SpeedLimit = Constants_Emitter_SolveForcesAndVelocity_SpeedLimit;
-	Context.Map.Constants.Emitter.SolveForcesAndVelocity.AccelerationLimit = Constants_Emitter_SolveForcesAndVelocity_AccelerationLimit;
-	Context.Map.Engine.Owner.Position = Engine_Owner_Position.xyz;
-	Context.Map.Constants.Emitter.ScaleSpriteSizeBySpeed.VelocityThreshold = Constants_Emitter_ScaleSpriteSizeBySpeed_VelocityThreshold;
-	Context.Map.Constants.Emitter.ScaleSpriteSizeBySpeed.MinScaleFactor = Constants_Emitter_ScaleSpriteSizeBySpeed_MinScaleFactor;
-	Context.Map.Constants.Emitter.ScaleSpriteSizeBySpeed.MaxScaleFactor = Constants_Emitter_ScaleSpriteSizeBySpeed_MaxScaleFactor;
+	Context.Map.Emitter.ExecutionState = Emitter_ExecutionState;
+	Context.Map.System.ExecutionState = System_ExecutionState;
 	Context.Map.Engine.Emitter.TotalSpawnedParticles = Engine_Emitter_TotalSpawnedParticles;
 	Context.Map.Emitter.RandomSeed = Emitter_RandomSeed;
 	ReadDataSets(Context);
@@ -1013,28 +886,28 @@ EnterStatScope(5 );
 	OutputDataFloat(0, 2, TmpWriteIndex, Context.Map.Particles.Color.g);
 	OutputDataFloat(0, 3, TmpWriteIndex, Context.Map.Particles.Color.b);
 	OutputDataFloat(0, 4, TmpWriteIndex, Context.Map.Particles.Color.a);
-	OutputDataFloat(0, 5, TmpWriteIndex, Context.Map.Particles.Initial.SpriteSize.x);
-	OutputDataFloat(0, 6, TmpWriteIndex, Context.Map.Particles.Initial.SpriteSize.y);
-	OutputDataFloat(0, 7, TmpWriteIndex, Context.Map.Particles.Lifetime);
-	OutputDataFloat(0, 8, TmpWriteIndex, Context.Map.Particles.Mass);
-	OutputDataFloat(0, 9, TmpWriteIndex, Context.Map.Particles.MaterialRandom);
-	OutputDataFloat(0, 10, TmpWriteIndex, Context.Map.Particles.NormalizedAge);
-	OutputDataFloat(0, 11, TmpWriteIndex, Context.Map.Particles.Position.x);
-	OutputDataFloat(0, 12, TmpWriteIndex, Context.Map.Particles.Position.y);
-	OutputDataFloat(0, 13, TmpWriteIndex, Context.Map.Particles.Position.z);
-	OutputDataFloat(0, 14, TmpWriteIndex, Context.Map.Particles.PreviousVelocity.x);
-	OutputDataFloat(0, 15, TmpWriteIndex, Context.Map.Particles.PreviousVelocity.y);
-	OutputDataFloat(0, 16, TmpWriteIndex, Context.Map.Particles.PreviousVelocity.z);
-	OutputDataFloat(0, 17, TmpWriteIndex, Context.Map.Particles.Scale.x);
-	OutputDataFloat(0, 18, TmpWriteIndex, Context.Map.Particles.Scale.y);
-	OutputDataFloat(0, 19, TmpWriteIndex, Context.Map.Particles.Scale.z);
-	OutputDataFloat(0, 20, TmpWriteIndex, Context.Map.Particles.SpriteRotation);
-	OutputDataFloat(0, 21, TmpWriteIndex, Context.Map.Particles.SpriteSize.x);
-	OutputDataFloat(0, 22, TmpWriteIndex, Context.Map.Particles.SpriteSize.y);
-	OutputDataInt(0, 23, TmpWriteIndex, Context.Map.Particles.UniqueID);
-	OutputDataFloat(0, 24, TmpWriteIndex, Context.Map.Particles.Velocity.x);
-	OutputDataFloat(0, 25, TmpWriteIndex, Context.Map.Particles.Velocity.y);
-	OutputDataFloat(0, 26, TmpWriteIndex, Context.Map.Particles.Velocity.z);
+	OutputDataFloat(0, 5, TmpWriteIndex, Context.Map.Particles.Lifetime);
+	OutputDataFloat(0, 6, TmpWriteIndex, Context.Map.Particles.Mass);
+	OutputDataFloat(0, 7, TmpWriteIndex, Context.Map.Particles.MaterialRandom);
+	OutputDataFloat(0, 8, TmpWriteIndex, Context.Map.Particles.MeshOrientation.x);
+	OutputDataFloat(0, 9, TmpWriteIndex, Context.Map.Particles.MeshOrientation.y);
+	OutputDataFloat(0, 10, TmpWriteIndex, Context.Map.Particles.MeshOrientation.z);
+	OutputDataFloat(0, 11, TmpWriteIndex, Context.Map.Particles.MeshOrientation.w);
+	OutputDataFloat(0, 12, TmpWriteIndex, Context.Map.Particles.NormalizedAge);
+	OutputDataFloat(0, 13, TmpWriteIndex, Context.Map.Particles.Position.x);
+	OutputDataFloat(0, 14, TmpWriteIndex, Context.Map.Particles.Position.y);
+	OutputDataFloat(0, 15, TmpWriteIndex, Context.Map.Particles.Position.z);
+	OutputDataFloat(0, 16, TmpWriteIndex, Context.Map.Particles.RotationalInertia);
+	OutputDataFloat(0, 17, TmpWriteIndex, Context.Map.Particles.RotationalVelocity.x);
+	OutputDataFloat(0, 18, TmpWriteIndex, Context.Map.Particles.RotationalVelocity.y);
+	OutputDataFloat(0, 19, TmpWriteIndex, Context.Map.Particles.RotationalVelocity.z);
+	OutputDataFloat(0, 20, TmpWriteIndex, Context.Map.Particles.Scale.x);
+	OutputDataFloat(0, 21, TmpWriteIndex, Context.Map.Particles.Scale.y);
+	OutputDataFloat(0, 22, TmpWriteIndex, Context.Map.Particles.Scale.z);
+	OutputDataFloat(0, 23, TmpWriteIndex, Context.Map.Particles.SpriteRotation);
+	OutputDataFloat(0, 24, TmpWriteIndex, Context.Map.Particles.SpriteSize.x);
+	OutputDataFloat(0, 25, TmpWriteIndex, Context.Map.Particles.SpriteSize.y);
+	OutputDataInt(0, 26, TmpWriteIndex, Context.Map.Particles.UniqueID);
 	}
 ExitStatScope( );
 }
